@@ -29,6 +29,12 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  
+
+  <link rel="stylesheet" href="assets/vendor/owl-carousel/owl.carousel.min.css">
+  
+  <!-- Style -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -37,8 +43,8 @@
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">abc@example.com</a>
-        <i class="bi bi-phone"></i> +134234543
+      <!--  <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">abc@example.com</a>
+        <i class="bi bi-phone"></i> +134234543-->
       </div>
       <div class="d-none d-lg-flex social-links align-items-center">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -55,8 +61,8 @@
 
       <!--<h1 class="logo me-auto"><a href="index.html">Drive Safe Medicals</a></h1>-->
        
-   <!--   <a href="index.html" class="logo me-auto"><img src="assets/img/logo.jpg" alt="" class="img-fluid"></a>-->
-         <a class="navbar-brand" href="index.html"><img src="assets/img/logo1.svg" class= "mlogo" alt="Logo"></a>
+    <!--   <a href="index.html" ><img src="assets/img/logo1.svg" alt=""  height="150px" width="150px" > </a>-->
+        <a class="navbar-brand" href="index.html"><img src="assets/img/logo1.svg" class= "mlogo" alt="Logo"></a>
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
          
@@ -64,7 +70,7 @@
           <li><a class="nav-link scrollto" href="hgv.html">HGV/LGV<br> Medical</a></li>
           <li><a class="nav-link scrollto" href="">Taxi Driver<br> Medical</a></li>
           
-          <li class="dropdown"><a href="#"><span>Driver <br> Medicals</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>Other <br> Medicals</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">PSV Medical</a></li>
               <li><a href="#">Motorhome Medical</a></li>
@@ -83,12 +89,16 @@
           <li><a class="nav-link scrollto" href="">Occupational Health <br>Medical </a></li>
          
           <li><a class="nav-link scrollto" href="">About Us</a></li>
-     
+         <li> <a href="" class=""><span class="d-none d-md-inline">Download D4 Form</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
+       
       </nav><!-- .navbar -->
-
-      <a href="" class="appointment-btn scrollto"><span class="d-none d-md-inline">Download</span> D4 Form</a>
+    <div class="headerbuttons">
+      <a href="" class="appointment-btn scrollto">Call</a>
+      <a href="" class="appointment-btn scrollto">Book Now</a>
+    </div>
+  
 
     </div>
   </header><!-- End Header -->
@@ -98,63 +108,81 @@
     <div class="container">
       <h1>Driver Medicals Provider <br>You can Trust</h1>
  
-     <a href="#" class="btn-get-started scrollto">Call Now</a>
-      <a href="appointment.html" class="btn-get-started scrollto">Book Online</a>
+    <!-- <a href="#" class="btn-get-started scrollto">Call Now</a>
+      <a href="appointment.html" class="btn-get-started scrollto">Book Online</a>-->
     </div>
   </section><!-- End Hero -->
 
   <main id="main">
-
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-4 d-flex align-items-stretch">
-            <div class="content">
-              <h3>Why Choose Drive Safe Medicals?</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
-              </p>
-              <div class="text-center">
-                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-8 d-flex align-items-stretch">
-            <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-receipt"></i>
-                    <h4>Corporis voluptates sit</h4>
-                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                  </div>
-                </div>
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-cube-alt"></i>
-                    <h4>Ullamco laboris ladore pan</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                  </div>
-                </div>
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-images"></i>
-                    <h4>Labore consequatur</h4>
-                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End .content-->
+    <div class="content">
+    
+      <div class="container ">
+        <div class="row mb-5 ">
+          <div class="col-12 text-center">
+            <h1 class="my-5">Services</h1>
           </div>
         </div>
-
       </div>
-    </section><!-- End Why Us Section -->
+  
 
+      <div class="site-section bg-left-half mb-5">
+        <div class="container owl-2-style">      
+  
+          <div class="owl-carousel owl-2">
+              
+            <div class="media-29101">
+              <div class="icon"><i class="fas fa-bus fa-3x "style="color: #ffffff; background-color: red; padding: 10px; border-radius: 50%; margin-bottom: 30px"  ></i></div>
+              <h3><a href="#">HGV/LGV Medical</a></h3>
+              <p>  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam maiores numquam ullam harum corrupti. </p>
+              <a href="" class="appointment-btn scrollto" style="margin-top: 30px;">Find Out More</a>
+              
+            </div>
+  
+            <div class="media-29101">
+              <div class="icon"><i class="fas fa-taxi fa-3x "style="color: #ffffff; background-color: red; padding: 10px; border-radius: 50%; margin-bottom: 30px"  ></i></div>
+              <h3><a href="#">Taxi Driver Medical</a></h3>
+              <p>  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam maiores numquam ullam harum corrupti. </p>
+              <a href="" class="appointment-btn scrollto" style="margin-top: 30px;">Find Out More</a>
+            </div>
+  
+            <div class="media-29101">
+              <div class="icon"><i class="fas fa-hospital-user fa-3x "style="color: #ffffff; background-color: red; padding: 10px; border-radius: 50%; margin-bottom: 30px"  ></i></div>
+              <h3><a href="#">Other Medicals</a></h3>
+              <p>  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam maiores numquam ullam harum corrupti. </p>
+              <a href="" class="appointment-btn scrollto" style="margin-top: 30px;">Find Out More</a>
+            </div>
+  
+            <div class="media-29101">
+             
+              <div class="icon"><i class="fas fa-building fa-3x "style="color: #ffffff; background-color: red; padding: 10px; border-radius: 50%; margin-bottom: 30px"  ></i></div>
+              <h3><a href="#">Driver Screening for Business</a></h3>
+              <p>  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam maiores numquam ullam harum corrupti. </p>
+              <a href="" class="appointment-btn scrollto" style="margin-top: 30px;">Find Out More</a>
+            </div>
+  
+            <div class="media-29101">
+             
+              <div class="icon"><i class="fas fa-notes-medical fa-3x "style="color: #ffffff; background-color: red; padding: 10px; border-radius: 50%; margin-bottom: 30px"  ></i></div>
+              <h3><a href="#">Pre-employment Medical</a></h3>
+              <p>  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam maiores numquam ullam harum corrupti. </p>
+              <a href="" class="appointment-btn scrollto" style="margin-top: 30px;">Find Out More</a>
+            </div>
+  
+            <div class="media-29101">
+              <div class="icon"><i class="fas fa-file-medical fa-3x "style="color: #ffffff; background-color: red; padding: 10px; border-radius: 50%; margin-bottom: 30px"  ></i></div>
+              <h3><a href="#">Occupational Health Medical</a></h3>
+              <p>  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam maiores numquam ullam harum corrupti. </p>
+              <a href="" class="appointment-btn scrollto" style="margin-top: 30px;">Find Out More</a>
+            </div>
+  
+          </div>
+  
+        </div>
+      </div>
+  
+    </div>
    
+
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
@@ -198,8 +226,55 @@
 
       </div>
     </section><!-- End Counts Section -->
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
 
-    <!-- ======= Services Section ======= -->
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="content">
+              <h3>Why Choose Medilab?</h3>
+              <p>
+                
+              </p>
+              <div class="text-center">
+                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-receipt"></i>
+                    <h4>Corporis voluptates sit</h4>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-cube-alt"></i>
+                    <h4>Ullamco laboris ladore pan</h4>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-images"></i>
+                    <h4>Labore consequatur</h4>
+                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Services Section ======= 
     <section id="services" class="services">
       <div class="container">
 
@@ -260,9 +335,11 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section> End Services Section -->
 
-    <!-- ======= Appointment Section ======= -->
+   
+
+    <!-- ======= Appointment Section ======= >
     <section id="appointment" class="appointment section-bg">
       <div class="container">
 
@@ -327,7 +404,7 @@
         </form>
 
       </div>
-    </section><!-- End Appointment Section -->
+    </section>< End Appointment Section -->
 
   
 
@@ -403,70 +480,12 @@
 
       </div>
     </section> End Contact Section -->
-
+    
 
   </main><!-- End #main -->
 
-    <section id="faq" class="faq section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="faq-list">
-          <ul>
-            <li data-aos="fade-up">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                </p>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-
-      </div>
-    </section>
+  
+    
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -551,6 +570,14 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+ 
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/vendor/cr-js/main.js"></script>
+  
+</body>
 </body>
 
 </html>
