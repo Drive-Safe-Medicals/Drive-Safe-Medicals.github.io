@@ -256,9 +256,9 @@ margin-bottom: 30px;
 }
  
 .mlogo{
-  height: 9rem;
-  width: 9rem;
-  margin-right: 50px;
+  height: 8rem;
+  width: 11rem;
+  margin-right: 30px;
  }
 
 #preloader:before {
@@ -436,6 +436,8 @@ margin-bottom: 30px;
 */
 .navbar {
   padding: 0;
+  
+
 }
 .navbar ul {
   margin: 0;
@@ -443,9 +445,14 @@ margin-bottom: 30px;
   display: flex;
   list-style: none;
   align-items: center;
+  display: flex;
+  justify-content: center;
+
+    text-align: center; 
 }
 .navbar li {
   position: relative;
+  margin-right: 10px;
 }
 .navbar > ul > li {
   position: relative;
@@ -456,8 +463,9 @@ margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 16px;
   color: #2c4964;
+  font-weight: 700;
   white-space: nowrap;
   transition: 0.3s;
   border-bottom: 2px solid #fff;
@@ -817,6 +825,7 @@ section {
 }
 .why-us .content p {
   margin-bottom: 30px;
+  color: white;
   
 }
 .why-us .content .more-btn {
@@ -1771,7 +1780,7 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #1c84e3;
+  background: #ffae66;
   color: #fff;
   text-decoration: none;
 }
