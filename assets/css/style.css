@@ -798,11 +798,17 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+.why-us{
+  margin-bottom: -150px;
+}
 .why-us .content {
   padding: 30px;
   background: #014D4E;
   border-radius: 4px;
   color: rgb(255, 255, 255);
+  font-weight: 500;
+
+  
 }
 .why-us .content h3 {
   font-weight: 700;
@@ -811,10 +817,11 @@ section {
 }
 .why-us .content p {
   margin-bottom: 30px;
+  
 }
 .why-us .content .more-btn {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
+  background: #FC8720;
   padding: 6px 30px 8px 30px;
   color: #fff;
   border-radius: 50px;
