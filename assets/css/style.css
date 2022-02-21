@@ -257,8 +257,8 @@ margin-bottom: 30px;
  
 .mlogo{
   height: 8rem;
-  width: 11rem;
-  margin-right: 30px;
+  width: 12rem;
+  margin-right: 90px;
  }
 
 #preloader:before {
@@ -452,7 +452,7 @@ margin-bottom: 30px;
 }
 .navbar li {
   position: relative;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .navbar > ul > li {
   position: relative;
@@ -463,7 +463,7 @@ margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 16px;
+  font-size: 18px;
   color: #2c4964;
   font-weight: 700;
   white-space: nowrap;
