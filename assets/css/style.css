@@ -70,7 +70,7 @@ margin-bottom: 30px;
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #FC8720;
+  background: #1977cc;
 }
   #main .btn-get-started:hover {
   background: #3291e6;
@@ -106,7 +106,7 @@ margin-bottom: 30px;
 #heroinner .btn-get-started {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
@@ -115,7 +115,7 @@ margin-bottom: 30px;
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #FC8720;
+  background: #1977cc;
 }
 #heroinner .btn-get-started:hover {
   background: #3291e6;
@@ -172,7 +172,7 @@ margin-bottom: 30px;
 .appointmentpage .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #3291e6;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -210,10 +210,10 @@ margin-bottom: 30px;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  padding: 10px !important;
+  padding: 10px ;
 }
 .appointmentpage .php-email-form input:focus, .appointment .php-email-form textarea:focus, .appointment .php-email-form select:focus {
-  border-color: #FC8720;
+  border-color: #3291e6;
 }
 .appointmentpage .php-email-form input, .appointment .php-email-form select {
   height: 44px;
@@ -222,7 +222,7 @@ margin-bottom: 30px;
   padding: 10px 12px;
 }
 .appointmentpage .php-email-form button[type=submit] {
-  background: #FC8720;
+  background: #1977cc;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -257,7 +257,7 @@ margin-bottom: 30px;
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #FC8720;
+  border: 6px solid #3291e6;
   border-top-color: #d1e6f9;
   border-radius: 50%;
   width: 60px;
