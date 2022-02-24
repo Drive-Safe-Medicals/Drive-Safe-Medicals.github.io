@@ -78,19 +78,19 @@ margin-bottom: 30px;
 
 
 /*--------------------------------------------------------------
-# Hero Section 2nd pages
+# Hero Section hgv
 --------------------------------------------------------------*/
-#heroinner {
+#herohgv {
   width: 100%;
   height: 70vh;
   background: url("../img/hgv.jpg") top center;
   background-size: cover;
   margin-bottom: 5px;
 }
-#heroinner .container {
+#herohgv .container {
   position: relative;
 }
-#heroinner h1 {
+#herohgv h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -98,12 +98,12 @@ margin-bottom: 30px;
   text-transform: uppercase;
   color: #FFFFFF;
 }
-#heroinner h2 {
+#herohgv h2 {
   color: #2c4964;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
-#heroinner .btn-get-started {
+#herohgv .btn-get-started {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -117,34 +117,109 @@ margin-bottom: 30px;
   color: #fff;
   background: #1977cc;
 }
-#heroinner .btn-get-started:hover {
+#herohgv .btn-get-started:hover {
   background: #3291e6;
 }
 @media (min-width: 1024px) {
-  #heroinner {
+  #herohgv {
     background-attachment: fixed;
   }
 }
 @media (max-width: 992px) {
-  #heroinner {
+  #herohgv {
     margin-bottom: 0;
     height: 100vh;
   }
-  #heroinner .container {
+  #herohgv .container {
     padding-bottom: 63px;
   }
-  #heroinner h1 {
+  #herohgv h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #heroinner h2 {
+  #herohgv h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 }
 @media (max-height: 600px) {
-  #heroinner {
+  #herohgv {
+    height: 110vh;
+  }
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Hero Section taxi
+--------------------------------------------------------------*/
+#herotaxi {
+  width: 100%;
+  height: 90vh;
+  background: url("../img/taxibg.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#herotaxi .container {
+  position: relative;
+}
+#herotaxi h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#herotaxi h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#herotaxi .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#herotaxi .btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #herotaxi {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #herotaxi {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #herotaxi .container {
+    padding-bottom: 63px;
+  }
+  #herotaxi h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herotaxi h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #herotaxi {
     height: 110vh;
   }
 }
@@ -629,7 +704,7 @@ margin-bottom: 30px;
 #hero {
   width: 100%;
   height: 90vh;
-  background: url("../img/bg4.PNG") top center;
+  background: url("../img/bg52.png") top center;
   background-size: cover;
   margin-bottom: -150px;
 }
@@ -637,7 +712,7 @@ margin-bottom: 30px;
   position: relative;
 }
 #hero h1 {
-  margin: 0;
+  margin-top: -100px;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
