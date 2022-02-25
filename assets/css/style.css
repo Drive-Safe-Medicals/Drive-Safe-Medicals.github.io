@@ -368,6 +368,150 @@ margin-bottom: 30px;
     height: 110vh;
   }
 }
+
+/*--------------------------------------------------------------
+# Hero Section Ambulance
+--------------------------------------------------------------*/
+#heroamb {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#heroamb .container {
+  position: relative;
+}
+#heroamb h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#heroamb h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#heroamb .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#heroamb .btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #heroamb {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #heroamb {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #heroamb .container {
+    padding-bottom: 63px;
+  }
+  #heroamb h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heroamb h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #heroamb{
+    height: 110vh;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero Section Motorsport
+--------------------------------------------------------------*/
+#herocrane {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#herocrane .container {
+  position: relative;
+}
+#herocrane h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#herocrane h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#herocrane .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#herocrane .btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #herocrane {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #herocrane {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #herocrane .container {
+    padding-bottom: 63px;
+  }
+  #herocrane h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herocrane h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #herocrane{
+    height: 110vh;
+  }
+}
  /*--------------------------------------------------------------
 # Appointment page
 --------------------------------------------------------------*/
