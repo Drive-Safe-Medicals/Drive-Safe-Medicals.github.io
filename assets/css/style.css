@@ -656,6 +656,152 @@ margin-bottom: 30px;
     height: 110vh;
   }
 }
+
+
+/*--------------------------------------------------------------
+# Hero Section Pre-employement
+--------------------------------------------------------------*/
+#heroemp {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#heroemp .container {
+  position: relative;
+}
+#heroemp h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#heroemp h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#heroemp .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#heroemp .btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #heroemp {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #heroemp {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #heroemp .container {
+    padding-bottom: 63px;
+  }
+  #heroemp h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heroemp h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #heroemp{
+    height: 110vh;
+  }
+}
+heroohm
+
+/*--------------------------------------------------------------
+# Hero Section Occupational health
+--------------------------------------------------------------*/
+#heroohm {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#heroohm .container {
+  position: relative;
+}
+#heroohm h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#heroohm h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#heroohm .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#heroohm.btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #heroohm {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #heroohm {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #heroohm .container {
+    padding-bottom: 63px;
+  }
+  #heroohm h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heroohm h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #heroohm{
+    height: 110vh;
+  }
+}
  /*--------------------------------------------------------------
 # Appointment page
 --------------------------------------------------------------*/
