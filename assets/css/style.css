@@ -5,10 +5,11 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  
 }
 
 a {
-  color: #1977cc;
+  color: #FC8720;
   /*color: #128ec4;*/
   text-decoration: none;
 }
@@ -22,9 +23,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 p {
-font-family: "Raleway";
+font-family: "Raleway",sans-serif;
 
 }
+
 /* inner page section */
 #main{
 font-size: 16px;
@@ -76,19 +78,19 @@ margin-bottom: 30px;
 
 
 /*--------------------------------------------------------------
-# Hero Section 2nd pages
+# Hero Section hgv
 --------------------------------------------------------------*/
-#heroinner {
+#herohgv {
   width: 100%;
   height: 70vh;
   background: url("../img/hgv.jpg") top center;
   background-size: cover;
   margin-bottom: 5px;
 }
-#heroinner .container {
+#herohgv .container {
   position: relative;
 }
-#heroinner h1 {
+#herohgv h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -96,15 +98,15 @@ margin-bottom: 30px;
   text-transform: uppercase;
   color: #FFFFFF;
 }
-#heroinner h2 {
+#herohgv h2 {
   color: #2c4964;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
-#heroinner .btn-get-started {
+#herohgv .btn-get-started {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
@@ -115,34 +117,760 @@ margin-bottom: 30px;
   color: #fff;
   background: #1977cc;
 }
-#heroinner .btn-get-started:hover {
+#herohgv .btn-get-started:hover {
   background: #3291e6;
 }
 @media (min-width: 1024px) {
-  #heroinner {
+  #herohgv {
     background-attachment: fixed;
   }
 }
 @media (max-width: 992px) {
-  #heroinner {
+  #herohgv {
     margin-bottom: 0;
     height: 100vh;
   }
-  #heroinner .container {
+  #herohgv .container {
     padding-bottom: 63px;
   }
-  #heroinner h1 {
+  #herohgv h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #heroinner h2 {
+  #herohgv h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 }
 @media (max-height: 600px) {
-  #heroinner {
+  #herohgv {
+    height: 110vh;
+  }
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Hero Section taxi
+--------------------------------------------------------------*/
+#herotaxi {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/taxibg.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#herotaxi .container {
+  position: relative;
+}
+#herotaxi h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#herotaxi h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#herotaxi .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#herotaxi .btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #herotaxi {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #herotaxi {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #herotaxi .container {
+    padding-bottom: 63px;
+  }
+  #herotaxi h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herotaxi h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #herotaxi {
+    height: 110vh;
+  }
+}
+
+
+
+/*--------------------------------------------------------------
+# Hero Section Motorhome
+--------------------------------------------------------------*/
+#heromh {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/motorhomebg.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#heromh .container {
+  position: relative;
+}
+#heromh h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#heromh h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#heromh .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#heromh .btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #heromh {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #heromh {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #heromh .container {
+    padding-bottom: 63px;
+  }
+  #heromh h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heromh h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #heromh {
+    height: 110vh;
+  }
+}
+/*--------------------------------------------------------------
+# Hero Section Motorsport
+--------------------------------------------------------------*/
+#heroms {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/motorsportbg.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#heroms .container {
+  position: relative;
+}
+#heroms h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#heroms h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#heroms .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#heroms .btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #heroms {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #heroms {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #heroms .container {
+    padding-bottom: 63px;
+  }
+  #heroms h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heroms h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #heroms {
+    height: 110vh;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero Section Ambulance
+--------------------------------------------------------------*/
+#heroamb {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#heroamb .container {
+  position: relative;
+}
+#heroamb h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#heroamb h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#heroamb .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#heroamb .btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #heroamb {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #heroamb {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #heroamb .container {
+    padding-bottom: 63px;
+  }
+  #heroamb h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heroamb h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #heroamb{
+    height: 110vh;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero Section Motorsport
+--------------------------------------------------------------*/
+#herocrane {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#herocrane .container {
+  position: relative;
+}
+#herocrane h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#herocrane h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#herocrane .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#herocrane .btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #herocrane {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #herocrane {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #herocrane .container {
+    padding-bottom: 63px;
+  }
+  #herocrane h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herocrane h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #herocrane{
+    height: 110vh;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero Section Forklift
+--------------------------------------------------------------*/
+#herofork {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#herofork .container {
+  position: relative;
+}
+#herofork h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#herofork h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#herofork .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#herofork .btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #herofork {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #herofork {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #herofork .container {
+    padding-bottom: 63px;
+  }
+  #herofork h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herofork h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #herofork{
+    height: 110vh;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero Section PSV
+--------------------------------------------------------------*/
+#heropsv {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#heropsv .container {
+  position: relative;
+}
+#heropsv h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#heropsv h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#heropsv .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#heropsv .btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #heropsv {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #heropsv {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #heropsv .container {
+    padding-bottom: 63px;
+  }
+  #heropsv h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heropsv {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #heropsv{
+    height: 110vh;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Hero Section Pre-employement
+--------------------------------------------------------------*/
+#heroemp {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#heroemp .container {
+  position: relative;
+}
+#heroemp h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#heroemp h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#heroemp .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#heroemp .btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #heroemp {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #heroemp {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #heroemp .container {
+    padding-bottom: 63px;
+  }
+  #heroemp h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heroemp h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #heroemp{
+    height: 110vh;
+  }
+}
+heroohm
+
+/*--------------------------------------------------------------
+# Hero Section Occupational health
+--------------------------------------------------------------*/
+#heroohm {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#heroohm .container {
+  position: relative;
+}
+#heroohm h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#heroohm h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#heroohm .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#heroohm.btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #heroohm {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #heroohm {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #heroohm .container {
+    padding-bottom: 63px;
+  }
+  #heroohm h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heroohm h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #heroohm{
+    height: 110vh;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero Section Driver Screening 
+--------------------------------------------------------------*/
+#herods {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/.jpg") top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#herods .container {
+  position: relative;
+}
+#herods h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#herods h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#herods .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#herods.btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #herods {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #herods {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #herods.container {
+    padding-bottom: 63px;
+  }
+  #herods h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herods h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #herods{
     height: 110vh;
   }
 }
@@ -170,7 +898,7 @@ margin-bottom: 30px;
 .appointmentpage .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #3291e6;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -208,10 +936,10 @@ margin-bottom: 30px;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  padding: 10px !important;
+  padding: 10px ;
 }
 .appointmentpage .php-email-form input:focus, .appointment .php-email-form textarea:focus, .appointment .php-email-form select:focus {
-  border-color: #1977cc;
+  border-color: #3291e6;
 }
 .appointmentpage .php-email-form input, .appointment .php-email-form select {
   height: 44px;
@@ -243,10 +971,11 @@ margin-bottom: 30px;
   overflow: hidden;
   background: #fff;
 }
-
+ 
 .mlogo{
-  height: 7rem;
-  width: 8rem;
+  height: 8rem;
+  width: 12rem;
+  margin-right: 30px;
  }
 
 #preloader:before {
@@ -254,7 +983,7 @@ margin-bottom: 30px;
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1977cc;
+  border: 6px solid #3291e6;
   border-top-color: #d1e6f9;
   border-radius: 50%;
   width: 60px;
@@ -290,7 +1019,7 @@ margin-bottom: 30px;
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1977cc;
+  background: #3291e6;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -336,7 +1065,7 @@ margin-bottom: 30px;
   color: #1977cc;
 }
 #topbar .contact-info i {
-  color: #1977cc;
+  color: #FC8720;
   padding-right: 4px;
   margin-left: 15px;
   line-height: 0;
@@ -352,7 +1081,7 @@ margin-bottom: 30px;
   transition: 0.3s;
 }
 #topbar .social-links a:hover {
-  color: #1977cc;
+  color: #3291e6;
 }
 #topbar .social-links a:first-child {
   border-left: 0;
@@ -365,7 +1094,7 @@ margin-bottom: 30px;
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 5px 0;
   top: 40px;
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
 }
@@ -392,25 +1121,29 @@ margin-bottom: 30px;
 * Appointment Button *
 */
 .appointment-btn {
-  margin-left: 25px;
+  font-weight: 700;
+  margin-left: 10px;
   background: #1977cc;
   color: #fff;
   border-radius: 50px;
-  padding: 8px 25px;
+  padding: 8px 15px;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
+ 
 }
 .appointment-btn:hover {
-  background: #166ab5;
+  background: #3291e6;
   color: #fff;
 }
 @media (max-width: 768px) {
   .appointment-btn {
-    margin: 0 15px 0 0;
-    padding: 6px 18px;
+    margin: 0 15px 0 -10px;
+    padding: 8px 10px;
   }
+  
+ 
 }
 
 /*--------------------------------------------------------------
@@ -421,6 +1154,8 @@ margin-bottom: 30px;
 */
 .navbar {
   padding: 0;
+  
+
 }
 .navbar ul {
   margin: 0;
@@ -428,9 +1163,14 @@ margin-bottom: 30px;
   display: flex;
   list-style: none;
   align-items: center;
+  display: flex;
+  justify-content: center;
+
+ 
 }
 .navbar li {
   position: relative;
+  margin-right: 5px;
 }
 .navbar > ul > li {
   position: relative;
@@ -441,8 +1181,9 @@ margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 18px;
   color: #2c4964;
+  font-weight: 700;
   white-space: nowrap;
   transition: 0.3s;
   border-bottom: 2px solid #fff;
@@ -454,8 +1195,8 @@ margin-bottom: 30px;
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #1977cc;
-  border-color: #1977cc;
+  color: #014981;
+  border-color: #014981;
 }
 .navbar .dropdown ul {
   display: block;
@@ -486,7 +1227,7 @@ margin-bottom: 30px;
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #1977cc;
+  color: #014981;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -517,6 +1258,7 @@ margin-bottom: 30px;
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
+  margin-left: 20px;
   color: #2c4964;
   font-size: 28px;
   cursor: pointer;
@@ -571,11 +1313,11 @@ margin-bottom: 30px;
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2c4964;
+  color: #1977cc;
   border: none;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #1977cc;
+  color: #3291e6;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -601,7 +1343,7 @@ margin-bottom: 30px;
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #1977cc;
+  color: #FC8720;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -612,8 +1354,8 @@ margin-bottom: 30px;
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: url("../img/bg.jpg") top center;
+  height: 90vh;
+  background: url("../img/bg52.png") top center;
   background-size: cover;
   margin-bottom: -150px;
 }
@@ -621,7 +1363,7 @@ margin-bottom: 30px;
   position: relative;
 }
 #hero h1 {
-  margin: 0;
+  margin-top: -100px;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
@@ -719,7 +1461,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #1977cc;
+  background: #FC8720;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -783,11 +1525,17 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+.why-us{
+  margin-bottom: -150px;
+}
 .why-us .content {
   padding: 30px;
   background: #1977cc;
   border-radius: 4px;
-  color: #fff;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+
+  
 }
 .why-us .content h3 {
   font-weight: 700;
@@ -796,6 +1544,8 @@ section {
 }
 .why-us .content p {
   margin-bottom: 30px;
+  color: white;
+  font-weight: 400;
 }
 .why-us .content .more-btn {
   display: inline-block;
@@ -809,7 +1559,7 @@ section {
   font-size: 14px;
 }
 .why-us .content .more-btn:hover {
-  color: #1977cc;
+  color: #3291e6;
   background: #fff;
 }
 .why-us .icon-boxes .icon-box {
@@ -822,7 +1572,7 @@ section {
 }
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #1977cc;
+  color: #1977cc  ;
   margin-bottom: 30px;
 }
 .why-us .icon-boxes .icon-box h4 {
@@ -864,12 +1614,12 @@ section {
   transition: 0.5s;
 }
 .about .icon-box .icon i {
-  color: #1977cc;
+  color: #FC8720;
   font-size: 32px;
 }
 .about .icon-box:hover .icon {
-  background: #1977cc;
-  border-color: #1977cc;
+  background: #FC8720;
+  border-color: #FC8720;
 }
 .about .icon-box:hover .icon i {
   color: #fff;
@@ -885,7 +1635,7 @@ section {
   transition: 0.3s;
 }
 .about .icon-box .title a:hover {
-  color: #1977cc;
+  color: #FC8720;
 }
 .about .icon-box .description {
   margin-left: 85px;
@@ -900,7 +1650,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#1977cc 50%, rgba(25, 119, 204, 0.4) 52%);
+  background: radial-gradient(#FC8720 50%, rgba(25, 119, 204, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -945,7 +1695,7 @@ section {
   background: rgba(198, 16, 0, 0);
 }
 .about .play-btn:hover::after {
-  border-left: 15px solid #1977cc;
+  border-left: 15px solid #FC8720;
   transform: scale(20);
 }
 .about .play-btn:hover::before {
@@ -1007,7 +1757,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 20px;
-  background: #1977cc;
+  background: #FC8720;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
@@ -1042,7 +1792,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #1977cc;
+  background: #FC8720;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   display: flex;
@@ -1081,14 +1831,14 @@ section {
   margin-bottom: 0;
 }
 .services .icon-box:hover {
-  background: #1977cc;
-  border-color: #1977cc;
+  background: #FC8720;
+  border-color: #FC8720;
 }
 .services .icon-box:hover .icon {
   background: #fff;
 }
 .services .icon-box:hover .icon i {
-  color: #1977cc;
+  color: #FC8720;
 }
 .services .icon-box:hover .icon::before {
   background: #3291e6;
@@ -1159,7 +1909,7 @@ section {
   padding: 10px !important;
 }
 .appointment .php-email-form input:focus, .appointment .php-email-form textarea:focus, .appointment .php-email-form select:focus {
-  border-color: #1977cc;
+  border-color: #FC8720;
 }
 .appointment .php-email-form input, .appointment .php-email-form select {
   height: 44px;
@@ -1168,7 +1918,7 @@ section {
   padding: 10px 12px;
 }
 .appointment .php-email-form button[type=submit] {
-  background: #1977cc;
+  background: #FC8720;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1199,11 +1949,11 @@ section {
   font-size: 15px;
 }
 .departments .nav-link:hover {
-  color: #1977cc;
+  color: #FC8720;
 }
 .departments .nav-link.active {
-  color: #1977cc;
-  border-color: #1977cc;
+  color: #FC8720;
+  border-color: #FC8720;
 }
 .departments .tab-pane.active {
   -webkit-animation: fadeIn 0.5s ease-out;
@@ -1228,7 +1978,7 @@ section {
   }
   .departments .nav-link.active {
     color: #fff;
-    background: #1977cc;
+    background: #FC8720;
   }
 }
 
@@ -1307,7 +2057,7 @@ section {
   margin: 0 2px;
 }
 .doctors .member .social a:hover {
-  background: #1977cc;
+  background: #FC8720;
 }
 .doctors .member .social a + a {
   margin-left: 8px;
@@ -1367,7 +2117,7 @@ section {
   color: #343a40;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #1977cc;
+  color: #FC8720;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
@@ -1385,15 +2135,19 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials .testimonial-wrap {
-  padding-left: 50px;
+  padding-left: -50px;
+  
+}
+.testimonials{
+  margin: 100px;
 }
 .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
   overflow: hidden;
 }
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  padding: 30px 30px 30px 60px;
-  margin: 30px 15px;
+  padding: 30px 10px 10px 10px;
+  margin: 30px 5px;
   min-height: 200px;
   box-shadow: 0px 2px 12px rgba(44, 73, 100, 0.08);
   position: relative;
@@ -1403,8 +2157,10 @@ section {
   width: 90px;
   border-radius: 10px;
   border: 6px solid #fff;
-  position: absolute;
-  left: -45px;
+  position: top;
+  margin-top: -100px;
+  margin-left: 150px;
+ 
 }
 .testimonials .testimonial-item h3 {
   font-size: 18px;
@@ -1445,10 +2201,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #1977cc;
+  border: 1px solid #FC8720;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1977cc;
+  background-color: #FC8720;
 }
 @media (max-width: 767px) {
   .testimonials .testimonial-wrap {
@@ -1491,7 +2247,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #1977cc;
+  color: #FC8720;
   float: left;
   width: 44px;
   height: 44px;
@@ -1519,7 +2275,7 @@ section {
   margin-top: 40px;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #1977cc;
+  background: #FC8720;
   color: #fff;
 }
 .contact .php-email-form {
@@ -1578,7 +2334,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #1977cc;
+  background: #FC8720;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1612,16 +2368,20 @@ section {
   color: #444444;
   font-size: 14px;
   background: #f1f7fd;
+
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+  margin-top: -40px;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+  
 }
 #footer .footer-top .footer-contact h4 {
+  
   font-size: 22px;
   margin: 0 0 30px 0;
   padding: 2px 0 2px 0;
@@ -1629,11 +2389,13 @@ section {
   font-weight: 700;
 }
 #footer .footer-top .footer-contact p {
+  font-weight: 600;
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: sans-serif;
   color: #777777;
+  
 }
 #footer .footer-top h4 {
   font-size: 16px;
@@ -1641,6 +2403,7 @@ section {
   color: #444444;
   position: relative;
   padding-bottom: 12px;
+  margin-left: 50px;
 }
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
@@ -1649,6 +2412,7 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-left: 50px;
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
@@ -1669,57 +2433,19 @@ section {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  
 }
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
   color: #1977cc;
 }
-#footer .footer-newsletter {
-  font-size: 15px;
+
+
+#footer .social-links {
+  margin-left: 50px;
 }
-#footer .footer-newsletter h4 {
-  font-size: 16px;
-  font-weight: bold;
-  color: #444444;
-  position: relative;
-  padding-bottom: 12px;
-}
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  text-align: left;
-  border: 1px solid #bfdcf7;
-}
-#footer .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
-#footer .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #1977cc;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-}
-#footer .footer-newsletter form input[type=submit]:hover {
-  background: #1c84e3;
-}
-#footer .credits {
-  padding-top: 5px;
-  font-size: 13px;
-  color: #444444;
-}
+
+
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -1739,3 +2465,153 @@ section {
   color: #fff;
   text-decoration: none;
 }
+.flogo{
+  margin-top: -40px;
+  margin-bottom: 10px;
+  width: 10rem;
+  height: 8rem;
+
+}
+
+
+body {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.7; }
+
+p {
+  color: #999999;
+  font-weight: 300; }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a, a:hover {
+    text-decoration: none !important; }
+
+.content {
+  padding: 7rem 0; }
+
+h2 {
+  font-size: 20px; }
+
+.media-29101 {
+  text-align: center; }
+  .media-29101 img {
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 80px !important;
+    margin: 0 auto 40px auto; }
+  .media-29101 h3 {
+    font-size: 18px;
+    font-weight: 900 !important;
+    margin-bottom: 30px; }
+    .media-29101 h3 a {
+      color: #6c757d; }
+
+.owl-2-style .owl-nav {
+  display: none; }
+
+.owl-2-style .owl-dots {
+  text-align: center;
+  position: relative;
+  bottom: -30px; }
+  .owl-2-style .owl-dots .owl-dot {
+    display: inline-block; }
+    .owl-2-style .owl-dots .owl-dot span {
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      border-radius: 0px;
+      background: #cccccc;
+      -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      margin: 3px;
+      border-radius: 50%; }
+    .owl-2-style .owl-dots .owl-dot.active span {
+      background: #1977cc      ; }
+    .owl-2-style .owl-dots .owl-dot:active, .owl-2-style .owl-dots .owl-dot:focus {
+      outline: none; }
+     
+    .i {
+      background-color: red;
+      border-radius: 50%;
+      border: 1px solid grey;
+      padding: 10px;
+    }
+
+body {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.7; }
+
+p {
+  color: #999999;
+  font-weight: 300; }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a, a:hover {
+    text-decoration: none !important; }
+
+.content {
+  padding: 7rem 0; }
+
+h2 {
+  font-size: 20px; }
+
+.media-29101 {
+  text-align: center; }
+  .media-29101 img {
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 80px !important;
+    margin: 0 auto 40px auto; }
+  .media-29101 h3 {
+    font-size: 18px;
+    font-weight: 900 !important;
+    margin-bottom: 30px; }
+    .media-29101 h3 a {
+      color: #6c757d; }
+
+.owl-2-style .owl-nav {
+  display: none; }
+
+.owl-2-style .owl-dots {
+  text-align: center;
+  position: relative;
+  bottom: -30px; }
+  .owl-2-style .owl-dots .owl-dot {
+    display: inline-block; }
+    .owl-2-style .owl-dots .owl-dot span {
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      border-radius: 0px;
+      background: #cccccc;
+      -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      margin: 3px;
+      border-radius: 50%; }
+    .owl-2-style .owl-dots .owl-dot.active span {
+      background: #1977cc
+      ; }
+    .owl-2-style .owl-dots .owl-dot:active, .owl-2-style .owl-dots .owl-dot:focus {
+      outline: none; }
+    
+      .carousel-btn{
+
+    margin: 10px;
+      }
+     
