@@ -45,6 +45,9 @@ const fetchTimes = async date => {
         option.value = '';
         availableHours.firstChild = option;
       }
+    })
+    .catch(err => {
+      alert('Something went wrong. If You have paid the fee, kindly contact us.');
     });
 };
 
@@ -84,5 +87,8 @@ const bookAppointment = async body => {
     .then(data => {
       const { url } = data;
       window.location.href = url;
+    })
+    .catch(err => {
+      alert('Something went wrong. If You have paid the fee, kindly contact us.');
     });
 };
