@@ -113,67 +113,65 @@
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
-        <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+        <form role="form" class="form-floating mb-3 php-email-form">
           <div class="row">
             <div class="col-md-4 form-group">
               <input required type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
             </div>
             <div class="col-md-4 form-group mt-3 mt-md-0">
               <input required type="email" class="form-control" name="email" id="email" placeholder="Email Address" data-rule="email" data-msg="Please enter a valid email">
-              <div class="validate"></div>
             </div>
             <div class="col-md-4 form-group mt-3 mt-md-0">
               <input required type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number" data-rule="minlen:10" data-msg="Please enter a valid number">
-              <div class="validate"></div>
             </div>
           </div>
           <div class="row">
+            <label for="dob">Date of Birth</label>
             <div class="col-md-4 form-group mt-3">
-              <input required type="date" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-          </div>
-          <div class="row">
+              <input required type="date" name="dob" class="form-control datepicker" id="dob" label="Date of Birth" placeholder="Date of Birth" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            </div>  
             <div class="col-md-4 form-group mt-3">
-              <select name="AvailableHours" id="AvailableHours" class="form-select">
-                <option value="">Select a Time</option>  
-              </select>
-              <div class="validate"></div>
+              <input required type="text" name="address" class="form-control" id="address" placeholder="Address" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
             </div>
             <div class="col-md-4 form-group mt-3">
               <select name="Medical Type" id="Medical Type" class="form-select">
                 <option value="">Select Medical Type</option>
-                <option value=" 1">HGV/LGV Medical</option>
-                <option value=" 2">Taxi Driver Medical</option>
-                <option value=" 3">PSV Medical</option>
-                <option value=" 4">Motorhome Medical</option>
-                <option value=" 5">Forklift Driver Medical</option>
-                <option value=" 6">6</option>
+                <option value="HGV">HGV Medical</option>
+                <option value="LGV">LGV Medical</option>
+                <option value="TAXI">Taxi Driver Medical</option>
+                <option value="PSV">PSV Medical</option>
+                <option value="MOTORHOME">Motorhome Medical</option>
+                <option value="FORKLIFT">Forklift Driver Medical</option>
+                <option value="AMBULANCE">Ambulance Driver Medical</option>
+                <option value="CRANE">Crane Driver Medical</option>
+                <option value="MOTORSPORT">Motorsport Driver Medical</option>
               </select>
-              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="row">            
+            <label for="dob">Appointment Date</label>
+            <div class="col-md-4 form-group mt-3">
+              <input required type="date" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            </div> 
+            <div class="col-md-4 form-group mt-3">
+              <select name="AvailableHours" id="AvailableHours" class="form-select">
+                <option value="">Select a Time</option>  
+              </select>
             </div>
             <div class="col-md-4 form-group mt-3">
               <select name="source" id="source" class="form-select">
                 <option value="">How did you heard about us?</option>
-                <option value=""> 1</option>
-                <option value=""> 2</option>
-                <option value=""> 3</option>
+                <option value="facebook">Facebook</option>
+                <option value="twitter">Twitter</option>
+                <option value="word_of_mouth">Word of mouth</option>
               </select>
-              <div class="validate"></div>
             </div>
           </div>
 
           <!-- <div class="form-group mt-3">
             <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
-            <div class="validate"></div>
           </div> -->
-          <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
-          </div>
-          <div class="text-center"><button type="submit" id="apptBtn">Make an Appointment</button></div>
+          <div class="text-center mt-3"><button type="submit" id="apptBtn">Make an Appointment</button></div>
         </form>
 
       </div>
