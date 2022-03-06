@@ -18,8 +18,8 @@ const { userId } = params;
     .then(response => response.json())
     .then(data => {
       if (data === 'success') {
-        window.location.href = window.location.origin;
-      }
+      window.location.replace('success.html');
+;      }
     })
     .catch(err => {
       alert('Something went wrong. If You have paid the fee, kindly contact us.');
