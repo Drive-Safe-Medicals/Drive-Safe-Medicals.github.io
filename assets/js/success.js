@@ -18,10 +18,25 @@ const { userId } = params;
     .then(response => response.json())
     .then(data => {
       if (data === 'success') {
-      window.location.replace('success.html');
-;      }
+        // window.location.href = window.location.origin;
+
+        document
+          .getElementById('myModal-success')
+          .style.setProperty('display', 'block');
+        document
+          .getElementById('myModal-success')
+          .style.setProperty('opacity', 1);
+      }
     })
     .catch(err => {
-      alert('Something went wrong. If You have paid the fee, kindly contact us.');
+      alert(
+        `Something went wrong. If You have paid the fee, kindly contact us.\n ${err}`
+      );
+      document
+        .getElementById('myModalFailure')
+        .style.setProperty('display', 'block');
+      document
+        .getElementById('myModalFailure')
+        .style.setProperty('opacity', 1);
     });
 })();
