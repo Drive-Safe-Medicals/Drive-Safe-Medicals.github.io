@@ -154,7 +154,7 @@
     z-index: 1020;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1280px) {
   .sticky-xxl-top {
     position: -webkit-sticky;
     position: sticky;
@@ -4145,7 +4145,7 @@
     text-align: center !important;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1280px) {
   .float-xxl-start {
     float: right !important;
   }
