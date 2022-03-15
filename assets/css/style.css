@@ -620,14 +620,14 @@ p {
 --------------------------------------------------------------*/
 #heropsv {
   width: 100%;
-  height: 80vh;
+  height: 75vh;
   background: url('../img/PSV1.jpg') top center;
   background-size: cover;
   margin-bottom: 5px;
 }
 #heropsv .container {
   position: relative;
-  backdrop-filter: blur(3px)
+  backdrop-filter: blur(2px)
 }
 #heropsv h1 {
   margin: 0;
@@ -693,13 +693,14 @@ p {
 --------------------------------------------------------------*/
 #heroemp {
   width: 100%;
-  height: 80vh;
+  height: 75vh;
   background: url('../img/PRE-EMPLOYMENT.jpg') top center;
   background-size: cover;
   margin-bottom: 5px;
 }
 #heroemp .container {
   position: relative;
+  backdrop-filter: blur(2px)
 }
 #heroemp h1 {
   margin: 0;
@@ -769,12 +770,12 @@ p {
   background: url('../img/2.jpeg') top center;
   background-size: cover;
   margin-bottom: 5px;
-  opacity: 0.8;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+ 
  
 }
 #heroohm .container {
   position: relative;
+  backdrop-filter: blur(3px)
 }
 #heroohm h1 {
   margin: 0;
@@ -840,7 +841,7 @@ p {
 --------------------------------------------------------------*/
 #herods {
   width: 100%;
-  height: 85vh;
+  height: 78vh;
   background: url('../img/driver-screening.jpg') top center;
   background-size: cover;
   margin-bottom: 5px;
