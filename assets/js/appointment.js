@@ -21,6 +21,18 @@
       );
     });
 })();
+(
+  function(){
+    const params = new Proxy(new URLSearchParams(window.location.search), {
+      get: (searchParams, prop) => searchParams.get(prop),
+    });
+    const { type} = params;
+    if(type)
+    document.getElementById("Medical Type").value=type
+  }
+)();
+
+
 
 const body = {
   appointmentTime: undefined,
