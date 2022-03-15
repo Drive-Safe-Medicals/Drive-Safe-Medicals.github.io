@@ -115,9 +115,12 @@ p {
   background: url('../img/HGV_LGV.jpg') top center;
   background-size: cover;
   margin-bottom: 5px;
+ 
+  
 }
 #herohgv .container {
   position: relative;
+ 
 }
 #herohgv h1 {
   margin: 0;
@@ -762,6 +765,9 @@ p {
   background: url('../img/2.jpeg') top center;
   background-size: cover;
   margin-bottom: 5px;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+ 
 }
 #heroohm .container {
   position: relative;
