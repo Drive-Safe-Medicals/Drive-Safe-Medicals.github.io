@@ -39,6 +39,7 @@ const body = {
   appointmentType: undefined,
   appointmentDate: undefined,
   origin: window.location.origin,
+  location: undefined,
 };
 
 const timeFetcher = {
@@ -62,20 +63,20 @@ const fetchTimes = async () => {
   if (!timeFetcher.date || !timeFetcher.location) return;
   console.log('got both date and location', timeFetcher);
   let dateA = timeFetcher.date.split('-');
-  timeFetcher.date =
+  let date =
     parseInt(dateA[0], 10) +
     '/' +
     parseInt(dateA[1], 10) +
     '/' +
     parseInt(dateA[2], 10);
   await fetch(
-    `https://us-central1-drive-safe-medicals-26e5f.cloudfunctions.net/getFreeTimes?date=${timeFetcher.date}&location=${timeFetcher.location}`
+    `https://us-central1-drive-safe-medicals-26e5f.cloudfunctions.net/getFreeTimes?date=${date}&location=${timeFetcher.location}`
   )
     .then(response => response.json())
     .then(data => {
       const availableHours = document.getElementById('AvailableHours');
       availableHours.innerHTML = '';
-      if (date.length > 0) {
+      if (data.length > 0) {
         body.appointmentDate = date.split('/').reverse().join('/');
         body.appointmentTime = undefined;
         data.forEach(hour => {
@@ -110,6 +111,7 @@ document.getElementById('apptBtn').addEventListener('click', async function () {
   body.phone = document.getElementById('phone').value;
   body.dob = document.getElementById('dob').value;
   body.appointmentType = document.getElementById('Medical Type').value;
+  body.location = document.getElementById('servingLocations').value;
   if (Object.keys(body).every(key => body[key])) {
     await bookAppointment(body);
   } else {
