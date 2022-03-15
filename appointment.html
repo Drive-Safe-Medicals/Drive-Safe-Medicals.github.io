@@ -154,18 +154,23 @@
               <input required type="date" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
             </div> 
             <div class="col-md-4 form-group mt-3">
+              <select name="servingLocations" id="servingLocations" class="form-select">
+                <option value="">Select a Location</option>  
+              </select>
+            </div>
+            <div class="col-md-4 form-group mt-3">
               <select name="AvailableHours" id="AvailableHours" class="form-select">
                 <option value="">Select a Time</option>  
               </select>
             </div>
-            <div class="col-md-4 form-group mt-3">
+            <!-- <div class="col-md-4 form-group mt-3">
               <select name="source" id="source" class="form-select">
                 <option value="">How did you heard about us?</option>
                 <option value="facebook">Facebook</option>
                 <option value="twitter">Twitter</option>
                 <option value="word_of_mouth">Word of mouth</option>
               </select>
-            </div>
+            </div> -->
           </div>
 
           <!-- <div class="form-group mt-3">

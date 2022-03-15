@@ -1,3 +1,27 @@
+(async () => {
+  await fetch(
+    `https://us-central1-drive-safe-medicals-26e5f.cloudfunctions.net/getLocations`
+  )
+    .then(response => response.json())
+    .then(data => {
+      const servingLocations = document.getElementById('servingLocations');
+      servingLocations.innerHTML = '';
+      servingLocations.innerHTML =
+        '<option value="">Select a location</option>';
+      data.forEach(location => {
+        const option = document.createElement('option');
+        option.value = location;
+        option.innerHTML = location;
+        servingLocations.appendChild(option);
+      });
+    })
+    .catch(err => {
+      alert(
+        `Something went wrong. If You have paid the fee, kindly contact us. ${err}`
+      );
+    });
+})();
+
 const body = {
   appointmentTime: undefined,
   fullName: undefined,
@@ -10,21 +34,35 @@ const body = {
   origin: window.location.origin,
 };
 
+const timeFetcher = {
+  date: undefined,
+  location: undefined,
+};
+
 const selectedDate = document.getElementById('date');
 selectedDate.addEventListener('change', function () {
-  fetchTimes(selectedDate.value);
+  timeFetcher.date = selectedDate.value;
+  fetchTimes();
 });
 
-const fetchTimes = async date => {
-  let dateA = date.split('-');
-  date =
+const selectedLocation = document.getElementById('servingLocations');
+selectedLocation.addEventListener('change', function () {
+  timeFetcher.location = selectedLocation.value;
+  fetchTimes();
+});
+
+const fetchTimes = async () => {
+  if (!timeFetcher.date || !timeFetcher.location) return;
+  console.log('got both date and location', timeFetcher);
+  let dateA = timeFetcher.date.split('-');
+  timeFetcher.date =
     parseInt(dateA[0], 10) +
     '/' +
     parseInt(dateA[1], 10) +
     '/' +
     parseInt(dateA[2], 10);
   await fetch(
-    `https://us-central1-drive-safe-medicals-26e5f.cloudfunctions.net/getFreeDates?date=${date}`
+    `https://us-central1-drive-safe-medicals-26e5f.cloudfunctions.net/getFreeTimes?date=${timeFetcher.date}&location=${timeFetcher.location}`
   )
     .then(response => response.json())
     .then(data => {
@@ -47,7 +85,9 @@ const fetchTimes = async date => {
       }
     })
     .catch(err => {
-      alert('Something went wrong. If You have paid the fee, kindly contact us.');
+      alert(
+        'Something went wrong. If You have paid the fee, kindly contact us.'
+      );
     });
 };
 
@@ -89,6 +129,8 @@ const bookAppointment = async body => {
       window.location.href = url;
     })
     .catch(err => {
-      alert('Something went wrong. If You have paid the fee, kindly contact us.');
+      alert(
+        'Something went wrong. If You have paid the fee, kindly contact us.'
+      );
     });
 };
