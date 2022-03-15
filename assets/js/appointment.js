@@ -21,18 +21,13 @@
       );
     });
 })();
-(
-  function(){
-    const params = new Proxy(new URLSearchParams(window.location.search), {
-      get: (searchParams, prop) => searchParams.get(prop),
-    });
-    const { type} = params;
-    if(type)
-    document.getElementById("Medical Type").value=type
-  }
-)();
-
-
+(function () {
+  const params = new Proxy(new URLSearchParams(window.location.search), {
+    get: (searchParams, prop) => searchParams.get(prop),
+  });
+  const { type } = params;
+  if (type) document.getElementById('Medical Type').value = type;
+})();
 
 const body = {
   appointmentTime: undefined,
@@ -52,15 +47,15 @@ const timeFetcher = {
 };
 
 const selectedDate = document.getElementById('date');
-selectedDate.addEventListener('change', function () {
+selectedDate.addEventListener('change', async function () {
   timeFetcher.date = selectedDate.value;
-  fetchTimes();
+  await fetchTimes();
 });
 
 const selectedLocation = document.getElementById('servingLocations');
-selectedLocation.addEventListener('change', function () {
+selectedLocation.addEventListener('change', async function () {
   timeFetcher.location = selectedLocation.value;
-  fetchTimes();
+  await fetchTimes();
 });
 
 const fetchTimes = async () => {
@@ -90,15 +85,14 @@ const fetchTimes = async () => {
           availableHours.appendChild(option);
         });
       } else {
-        const option = document.createElement('option');
-        option.innerHTML = 'Select a date';
-        option.value = '';
-        availableHours.firstChild = option;
+        availableHours.innerHTML = '';
+        availableHours.innerHTML =
+          '<option value="">No Dates Available</option>';
       }
     })
     .catch(err => {
       alert(
-        'Something went wrong. If You have paid the fee, kindly contact us.'
+        `Something went wrong. If You have paid the fee, kindly contact us., ${err}`
       );
     });
 };
