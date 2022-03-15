@@ -120,6 +120,8 @@ document.getElementById('apptBtn').addEventListener('click', async function () {
 });
 
 const bookAppointment = async body => {
+  document.getElementById('aptForm').style.display = 'none';
+  document.getElementById('loader').style.display = 'block';
   await fetch(
     'https://us-central1-drive-safe-medicals-26e5f.cloudfunctions.net/bookAppointment',
     {
@@ -133,10 +135,14 @@ const bookAppointment = async body => {
   )
     .then(response => response.json())
     .then(data => {
+      document.getElementById('aptForm').style.display = 'block';
+      document.getElementById('loader').style.display = 'none';
       const { url } = data;
       window.location.href = url;
     })
     .catch(err => {
+      document.getElementById('aptForm').style.display = 'block';
+      document.getElementById('loader').style.display = 'none';
       alert(
         'Something went wrong. If You have paid the fee, kindly contact us.'
       );

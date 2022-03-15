@@ -112,8 +112,9 @@
           <h2>Make an Appointment</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
-
-        <form role="form" class="form-floating mb-3 php-email-form">
+        
+        <div class="loader" id="loader"></div>
+        <form role="form" class="form-floating mb-3 php-email-form" id="aptForm">
           <div class="row">
             <div class="col-md-4 form-group">
               <input required type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
@@ -176,7 +177,9 @@
           <!-- <div class="form-group mt-3">
             <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
           </div> -->
-          <div class="text-center mt-3"><button type="submit" id="apptBtn">Make an Appointment</button></div>
+          <div class="text-center mt-3">
+            <button type="submit" id="apptBtn">Make an Appointment</button>
+          </div>
         </form>
 
       </div>
