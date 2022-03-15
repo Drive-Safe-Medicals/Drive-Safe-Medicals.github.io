@@ -76,6 +76,10 @@ const fetchTimes = async () => {
     .then(data => {
       const availableHours = document.getElementById('AvailableHours');
       availableHours.innerHTML = '';
+
+      availableHours.innerHTML = '';
+      availableHours.innerHTML =
+        '<option value="">Select a Time</option>';
       if (data.length > 0) {
         body.appointmentDate = date.split('/').reverse().join('/');
         body.appointmentTime = undefined;
