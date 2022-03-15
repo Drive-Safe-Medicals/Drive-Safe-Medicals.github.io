@@ -111,7 +111,7 @@ p {
 --------------------------------------------------------------*/
 #herohgv {
   width: 100%;
-  height: 80vh;
+  height: 75vh;
   background: url('../img/HGV_LGV.jpg') top center;
   background-size: cover;
   margin-bottom: 5px;
@@ -120,7 +120,7 @@ p {
 }
 #herohgv .container {
   position: relative;
- 
+  
 }
 #herohgv h1 {
   margin: 0;
@@ -336,6 +336,7 @@ p {
 }
 #heroms .container {
   position: relative;
+  
 }
 #heroms h1 {
   margin: 0;
@@ -401,13 +402,14 @@ p {
 --------------------------------------------------------------*/
 #heroamb {
   width: 100%;
-  height: 85vh;
+  height: 78vh;
   background: url('../img/ambulance.jpg') top center;
   background-size: cover;
   margin-bottom: 5px;
 }
 #heroamb .container {
   position: relative;
+  backdrop-filter: blur(2px)
 }
 #heroamb h1 {
   margin: 0;
@@ -473,7 +475,7 @@ p {
 --------------------------------------------------------------*/
 #herocrane {
   width: 100%;
-  height: 90vh;
+  height: 78vh;
   background: url('../img/crane-operator.jpg') top center;
   background-size: cover;
   margin-bottom: 5px;
@@ -545,13 +547,14 @@ p {
 --------------------------------------------------------------*/
 #herofork {
   width: 100%;
-  height: 90vh;
+  height: 78vh;
   background: url('../img/forklift.jpg') top center;
   background-size: cover;
   margin-bottom: 5px;
 }
 #herofork .container {
   position: relative;
+
 }
 #herofork h1 {
   margin: 0;
@@ -617,13 +620,14 @@ p {
 --------------------------------------------------------------*/
 #heropsv {
   width: 100%;
-  height: 85vh;
+  height: 80vh;
   background: url('../img/PSV1.jpg') top center;
   background-size: cover;
   margin-bottom: 5px;
 }
 #heropsv .container {
   position: relative;
+  backdrop-filter: blur(3px)
 }
 #heropsv h1 {
   margin: 0;
