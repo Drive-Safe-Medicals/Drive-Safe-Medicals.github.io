@@ -2270,11 +2270,11 @@ section {
   position: relative;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
+  width: 7px;
+  height: 7px;
+  background-color: gainsboro;
   opacity: 1;
-  border: 1px solid #1977cc;
+ 
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #1977cc;
