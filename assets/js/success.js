@@ -4,6 +4,7 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 const { userId } = params;
 
 (async function () {
+  document.getElementById('loader').style.display = 'block';
   await fetch(
     'https://us-central1-drive-safe-medicals-26e5f.cloudfunctions.net/paymentSessionComplete',
     {
@@ -17,6 +18,7 @@ const { userId } = params;
   )
     .then(response => response.json())
     .then(data => {
+      document.getElementById('loader').style.display = 'none';
       if (data === 'success') {
         // window.location.href = window.location.origin;
 
@@ -35,8 +37,6 @@ const { userId } = params;
       document
         .getElementById('myModalFailure')
         .style.setProperty('display', 'block');
-      document
-        .getElementById('myModalFailure')
-        .style.setProperty('opacity', 1);
+      document.getElementById('myModalFailure').style.setProperty('opacity', 1);
     });
 })();
