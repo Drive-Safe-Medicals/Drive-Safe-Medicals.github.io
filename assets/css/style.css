@@ -1196,6 +1196,7 @@ p {
 * Appointment Button *
 */
 .appointment-btn {
+  margin-bottom: -20px;
   font-weight: 700;
   margin-left: 10px;
   background: #1977cc;
@@ -1226,8 +1227,10 @@ p {
 */
 .navbar {
   padding: 0;
+  margin-bottom: -25px;
 }
 .navbar ul {
+ 
   margin: 0;
   padding: 0;
   display: flex;
