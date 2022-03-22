@@ -1215,7 +1215,8 @@ p {
 }
 @media (max-width: 768px) {
   .appointment-btn {
-    margin: 0 15px 0 -10px;
+    
+    margin: 0 15px -25px -10px;
     padding: 8px 10px;
   }
 }
@@ -2771,6 +2772,30 @@ h2 {
 .owl-2-style .owl-dots .owl-dot:active,
 .owl-2-style .owl-dots .owl-dot:focus {
   outline: none;
+}
+.findmore-btn{
+  
+  font-weight: 700;
+  margin-left: 10px;
+  background: #1977cc;
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 20px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+.findmore-btn:hover {
+  background: #3291e6;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .findmore-btn {
+    margin: 0 15px 0 -10px;
+    padding: 8px 10px;
+  }
+
 }
 
 .carousel-btn {
