@@ -92,7 +92,7 @@ const fetchTimes = async () => {
       } else {
         availableHours.innerHTML = '';
         availableHours.innerHTML =
-          '<option value="">No Dates Available</option>';
+          '<option value="">No Times Available</option>';
       }
     })
     .catch(err => {
