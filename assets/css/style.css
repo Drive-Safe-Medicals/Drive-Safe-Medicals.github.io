@@ -196,7 +196,7 @@ p {
 #herotaxi {
   width: 100%;
   height: 75vh;
-  background: url('../img/taxibg.jpg') top center;
+  background: url('../img/taxi.jpg') top center;
   background-size: cover;
   margin-bottom: 5px;
 }
@@ -338,7 +338,7 @@ p {
 --------------------------------------------------------------*/
 #heroms {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background: url('../img/motorsports.jpg') top center;
   background-size: cover;
   margin-bottom: 5px;
@@ -411,14 +411,14 @@ p {
 --------------------------------------------------------------*/
 #heroamb {
   width: 100%;
-  height: 78vh;
+  height: 82vh;
   background: url('../img/ambulance.jpg') top center;
   background-size: cover;
   margin-bottom: 5px;
 }
 #heroamb .container {
   position: relative;
-  backdrop-filter: blur(2px)
+  
 }
 #heroamb h1 {
   margin: 0;
@@ -480,9 +480,10 @@ p {
 }
 
 /*--------------------------------------------------------------
-# Hero Section Motorsport
+# Hero Section Crane
 --------------------------------------------------------------*/
 #herocrane {
+  
   width: 100%;
   height: 78vh;
   background: url('../img/crane-operator.jpg') top center;
@@ -636,7 +637,7 @@ p {
 }
 #heropsv .container {
   position: relative;
-  backdrop-filter: blur(2px)
+
 }
 #heropsv h1 {
   margin: 0;
@@ -709,7 +710,7 @@ p {
 }
 #heroemp .container {
   position: relative;
-  backdrop-filter: blur(2px)
+  
 }
 #heroemp h1 {
   margin: 0;
@@ -784,7 +785,7 @@ p {
 }
 #heroohm .container {
   position: relative;
-  backdrop-filter: blur(3px)
+  
 }
 #heroohm h1 {
   margin: 0;
@@ -920,8 +921,8 @@ p {
 # Appointment page
 --------------------------------------------------------------*/
 #appointmentpage {
-  margin-top: 300px;
-  margin-bottom: 100px;
+  margin-top: 180px;
+ 
 }
 .appointmentpage .php-email-form {
   width: 100%;
@@ -1196,6 +1197,7 @@ p {
 * Appointment Button *
 */
 .appointment-btn {
+  margin-bottom: -20px;
   font-weight: 700;
   margin-left: 10px;
   background: #1977cc;
@@ -1213,7 +1215,8 @@ p {
 }
 @media (max-width: 768px) {
   .appointment-btn {
-    margin: 0 15px 0 -10px;
+    
+    margin: 0 15px -25px -10px;
     padding: 8px 10px;
   }
 }
@@ -1226,8 +1229,10 @@ p {
 */
 .navbar {
   padding: 0;
+  margin-bottom: -25px;
 }
 .navbar ul {
+ 
   margin: 0;
   padding: 0;
   display: flex;
@@ -2767,6 +2772,30 @@ h2 {
 .owl-2-style .owl-dots .owl-dot:active,
 .owl-2-style .owl-dots .owl-dot:focus {
   outline: none;
+}
+.findmore-btn{
+  
+  font-weight: 700;
+  margin-left: 10px;
+  background: #1977cc;
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 20px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+.findmore-btn:hover {
+  background: #3291e6;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .findmore-btn {
+    margin: 0 15px 0 -10px;
+    padding: 8px 10px;
+  }
+
 }
 
 .carousel-btn {
