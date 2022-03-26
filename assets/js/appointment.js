@@ -1,4 +1,34 @@
 (async () => {
+  let min =
+    new Date().getFullYear() +
+    '-' +
+    (new Date().getMonth() + 1) +
+    '-' +
+    new Date().getDate();
+  min = min
+    .split('-')
+    .map(value => {
+      if (value.length === 1) return '0' + value;
+      return value;
+    })
+    .join('-');
+  let max =
+    new Date().getFullYear() -
+    18 +
+    '-' +
+    (new Date().getMonth() + 1) +
+    '-' +
+    new Date().getDate();
+  max = max
+    .split('-')
+    .map(value => {
+      if (value.length === 1) return '0' + value;
+      return value;
+    })
+    .join('-');
+  document.getElementById('dob').max = max;
+  document.getElementById('date').min = min;
+
   await fetch(
     `https://us-central1-drive-safe-medicals-26e5f.cloudfunctions.net/getLocations`
   )
@@ -78,8 +108,7 @@ const fetchTimes = async () => {
       availableHours.innerHTML = '';
 
       availableHours.innerHTML = '';
-      availableHours.innerHTML =
-        '<option value="">Select a Time</option>';
+      availableHours.innerHTML = '<option value="">Select a Time</option>';
       if (data.length > 0) {
         body.appointmentDate = date.split('/').reverse().join('/');
         body.appointmentTime = undefined;
@@ -92,7 +121,7 @@ const fetchTimes = async () => {
       } else {
         availableHours.innerHTML = '';
         availableHours.innerHTML =
-          '<option value="">No Dates Available</option>';
+          '<option value="">No Times Available</option>';
       }
     })
     .catch(err => {

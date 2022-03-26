@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Drive Safe Medicals-HGV Medical</title>
+    <title>About Us</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -49,7 +49,7 @@
       <div class="container d-flex justify-content-between">
         <div class="contact-info d-flex align-items-center">
           <!--  <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">abc@example.com</a>
-        <i class="bi bi-phone"></i> +134234543-->
+      <i class="bi bi-phone"></i> +134234543-->
         </div>
         <div class="d-none d-lg-flex social-links align-items-center">
           <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -76,9 +76,7 @@
         /></a>
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
-            <li>
-              <a class="nav-link scrollto" href="about-us.html">About Us</a>
-            </li>
+            <li><a class="nav-link scrollto" href="about-us.html">About Us</a></li>
             <li>
               <a class="nav-link scrollto" href="hgv.html">HGV/LGV Medical</a>
             </li>
@@ -128,163 +126,65 @@
     </header>
     <!-- End Header -->
 
-    <!-- ======= Hero Section 
-  <section id="herohgv" class="d-flex align-items-center">
-    <div class="container">
-      <h1>Local HGV /LGV Medicals  <br>Including an Eye Test</h1>
- 
-    <a href="tel: +447494612392" class="btn-get-started scrollto" style="font-weight: 700;">Call Now</a>
-      <a href="#" class="btn-get-started scrollto">Book Online</a>
-    </div>
-  </section> End Hero -->
-
-    <!-- ======= Appointment Section ======= -->
-    <section id="appointmentpage" class="appointmentpage section-bg">
+    <!-- ======= Hero Section ======= -->
+    <section id="heroAboutUs" class="d-flex align-items-center">
       <div class="container">
-        <div class="section-title">
-          <h2>Make an Appointment</h2>
-          <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-            fugiat sit in iste officiis commodi quidem hic quas.
-          </p>
-        </div>
-
-        <div class="loader" id="loader"></div>
-        <form
-          role="form"
-          class="form-floating mb-3 php-email-form"
-          id="aptForm"
-        >
-          <div class="row">
-            <div class="col-md-4 form-group">
-              <input
-                required
-                type="text"
-                name="name"
-                class="form-control"
-                id="name"
-                placeholder="Your Name"
-                data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars"
-              />
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input
-                required
-                type="email"
-                class="form-control"
-                name="email"
-                id="email"
-                placeholder="Email Address"
-                data-rule="email"
-                data-msg="Please enter a valid email"
-              />
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input
-                required
-                type="tel"
-                class="form-control"
-                name="phone"
-                id="phone"
-                placeholder="Phone Number"
-                data-rule="minlen:10"
-                data-msg="Please enter a valid number"
-              />
-            </div>
-          </div>
-          <div class="row">
-            <label for="dob">Date of Birth</label>
-            <div class="col-md-4 form-group mt-3">
-              <input
-                required
-                type="date"
-                name="dob"
-                class="form-control datepicker"
-                id="dob"
-                label="Date of Birth"
-                placeholder="Date of Birth"
-              />
-            </div>
-            <div class="col-md-4 form-group mt-3">
-              <input
-                required
-                type="text"
-                name="address"
-                class="form-control"
-                id="address"
-                placeholder="Address"
-                data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars"
-              />
-            </div>
-            <div class="col-md-4 form-group mt-3">
-              <select name="Medical Type" id="Medical Type" class="form-select">
-                <option value="">Select Medical Type</option>
-                <option value="HGV">HGV Medical</option>
-                <option value="LGV">LGV Medical</option>
-                <option value="TAXI">Taxi Driver Medical</option>
-                <option value="PSV">PSV Medical</option>
-                <option value="MOTORHOME">Motorhome Medical</option>
-                <option value="FORKLIFT">Forklift Driver Medical</option>
-                <option value="AMBULANCE">Ambulance Driver Medical</option>
-                <option value="CRANE">Crane Driver Medical</option>
-                <option value="MOTORSPORT">Motorsport Driver Medical</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <label for="dob">Appointment Date</label>
-            <div class="col-md-4 form-group mt-3">
-              <input
-                required
-                type="date"
-                name="date"
-                class="form-control datepicker"
-                id="date"
-                placeholder="Appointment Date"
-              />
-            </div>
-            <div class="col-md-4 form-group mt-3">
-              <select
-                name="servingLocations"
-                id="servingLocations"
-                class="form-select"
-              >
-                <option value="">Select a Location</option>
-              </select>
-            </div>
-            <div class="col-md-4 form-group mt-3">
-              <select
-                name="AvailableHours"
-                id="AvailableHours"
-                class="form-select"
-              >
-                <option value="">Select a Time</option>
-              </select>
-            </div>
-            <!-- <div class="col-md-4 form-group mt-3">
-              <select name="source" id="source" class="form-select">
-                <option value="">How did you heard about us?</option>
-                <option value="facebook">Facebook</option>
-                <option value="twitter">Twitter</option>
-                <option value="word_of_mouth">Word of mouth</option>
-              </select>
-            </div> -->
-          </div>
-
-          <!-- <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
-          </div> -->
-          <div class="text-center mt-3">
-            <button type="submit" id="apptBtn">Make an Appointment</button>
-          </div>
-        </form>
+        <h1 class="customTextBG">
+          <span>About Us</span>
+        </h1>
       </div>
     </section>
-    <!-- End Appointment Section -->
+    <!-- End Hero -->
+
+    <main id="main">
+      <section class="inner-page">
+        <div class="container">
+          <h1>About Us</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi error
+            doloribus, harum distinctio at asperiores quia eveniet voluptatem
+            voluptas, perspiciatis sapiente neque quos voluptatum. Consequatur
+            odit sit error nostrum obcaecati.
+          </p>
+          <h1>Lorem Ipsum</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quod
+            tempora voluptatum officia, consequuntur incidunt vero architecto
+            provident ex quam. Provident, quaerat! In eligendi minus aspernatur
+            delectus quis quam eaque. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ipsum at, numquam fugiat minima repudiandae
+            praesentium tenetur voluptatem beatae, rerum placeat, unde veritatis
+            commodi delectus mollitia voluptate voluptatibus fuga iure cumque.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            suscipit ut maiores dolores asperiores eaque cumque cupiditate
+            quisquam corporis. Ratione, deserunt inventore? Temporibus tempore
+            provident neque, modi a impedit id. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Tenetur ratione vel impedit corrupti
+            autem, saepe ea ipsum cumque quo iste alias minus! Eaque beatae
+            harum, ex ut numquam totam magnam? Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Error sapiente dolores et nihil
+            delectus accusamus odit, sunt hic voluptates? Consequatur aliquam a
+            nam nesciunt explicabo delectus facere placeat temporibus suscipit.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
+            officia rerum voluptatum placeat error sapiente, fugit, libero
+            aliquam est ducimus voluptatem assumenda maiores reiciendis aliquid
+            dolorum quae vero nisi corporis? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Dignissimos non quam iure
+            reprehenderit quis commodi impedit totam facere omnis nam nostrum
+            quia dolorum aut molestiae, pariatur repudiandae eum, excepturi
+            reiciendis? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Optio, ipsa. Est, praesentium totam dolorem delectus iusto
+            eveniet officiis, quod dolor velit sapiente dolore fugit
+            exercitationem laudantium maiores quasi iure alias! Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. Non praesentium
+            perferendis, dolores omnis id natus officiis quam excepturi aliquid
+            error odio ipsa ab optio ipsum adipisci commodi ut quidem velit.
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- End #main -->
+
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="footer-top">
@@ -307,14 +207,11 @@
               <h4>Useful Links</h4>
               <ul>
                 <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="index.html">Home</a>
+                  <i class="bx bx-chevron-right"></i> <a href="index.html">Home</a>
                 </li>
                 <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="about-us.html">About us</a>
+                  <i class="bx bx-chevron-right"></i> <a href="about-us.html">About us</a>
                 </li>
-
                 <li>
                   <i class="bx bx-chevron-right"></i>
                   <a href="./assets/d4Form.pdf" target="_blank"
@@ -394,6 +291,5 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/appointment.js"></script>
   </body>
 </html>
