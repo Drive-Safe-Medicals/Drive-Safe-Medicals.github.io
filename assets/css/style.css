@@ -1057,7 +1057,7 @@ p {
 }
 }
 
-}
+
 @media (max-width: 540px) {
   .mlogo {
     height: 8rem;
@@ -1255,7 +1255,7 @@ p {
   }
 }
 
-}
+
 @media (max-width: 768px) {
   .appointment-btn {
     
@@ -1369,7 +1369,6 @@ p {
   visibility: visible;
 }
 @media(max-width: 1280px){
-
 .navbar a,
 .navbar a:focus {
   display: flex;
@@ -1386,22 +1385,7 @@ p {
 }
 
 
-@media(max-width: 1200px){
-  .navbar a,
-  .navbar a:focus {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 15px;
-    color: #2c4964;
-    font-weight: 700;
-    white-space: nowrap;
-    transition: 0.3s;
-    border-bottom: 2px solid #fff;
-    padding: 2px 2px;
-  }
 
-}
 @media(max-width: 1200px){
   .navbar li {
     position: relative;
@@ -1433,7 +1417,7 @@ p {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .mobile-nav-toggle {
     display: block;
   }
