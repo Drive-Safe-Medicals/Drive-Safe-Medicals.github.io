@@ -184,7 +184,7 @@ p {
     margin-bottom: 30px;
   }
 }
-@media (max-height: 600px) {
+@media (max-height: 850px) {
   #herohgv {
     height: 110vh;
   }
@@ -256,7 +256,7 @@ p {
     margin-bottom: 30px;
   }
 }
-@media (max-height: 600px) {
+@media (max-height: 800px) {
   #herotaxi {
     height: 110vh;
   }
@@ -328,7 +328,7 @@ p {
     margin-bottom: 30px;
   }
 }
-@media (max-height: 600px) {
+@media (max-height: 800px) {
   #heromh {
     height: 110vh;
   }
@@ -400,7 +400,7 @@ p {
     margin-bottom: 30px;
   }
 }
-@media (max-height: 600px) {
+@media (max-height: 800px) {
   #heroms {
     height: 110vh;
   }
@@ -473,7 +473,7 @@ p {
     margin-bottom: 30px;
   }
 }
-@media (max-height: 600px) {
+@media (max-height: 800px) {
   #heroamb {
     height: 110vh;
   }
@@ -546,7 +546,7 @@ p {
     margin-bottom: 30px;
   }
 }
-@media (max-height: 600px) {
+@media (max-height: 800px) {
   #herocrane {
     height: 110vh;
   }
@@ -619,7 +619,7 @@ p {
     margin-bottom: 30px;
   }
 }
-@media (max-height: 600px) {
+@media (max-height: 800px) {
   #herofork {
     height: 110vh;
   }
@@ -692,7 +692,7 @@ p {
     margin-bottom: 30px;
   }
 }
-@media (max-height: 600px) {
+@media (max-height: 800px) {
   #heropsv {
     height: 110vh;
   }
@@ -765,7 +765,7 @@ p {
     margin-bottom: 30px;
   }
 }
-@media (max-height: 600px) {
+@media (max-height: 800px) {
   #heroemp {
     height: 110vh;
   }
@@ -840,7 +840,7 @@ p {
     margin-bottom: 30px;
   }
 }
-@media (max-height: 600px) {
+@media (max-height: 800px) {
   #heroohm {
     height: 110vh;
   }
@@ -912,9 +912,9 @@ p {
     margin-bottom: 30px;
   }
 }
-@media (max-height: 600px) {
+@media (max-height: 800px) {
   #herods {
-    height: 110vh;
+    height: 80vh;
   }
 }
 /*--------------------------------------------------------------
@@ -1025,32 +1025,58 @@ p {
   margin-right: 30px;
 }
 
-@media (max-width: 1100px) {
-  .mlogo {
-    height: 9rem;
-    width: 9rem;
+@media (max-width: 1280px){
+  .mlogo{
+    height:8rem;
+    width:8rem;
+    margin-right: 10px;
+  }
+}
+
+@media(max-width: 1024px){
+ .mlogo{
+  height: 8rem;
+  width: 8rem;
+  margin-right: 500px;
+ }
+}
+@media (max-width: 920px){
+  .mlogo{
+    height: 8rem;
+    width: 8rem;
     margin-right: 350px;
   }
 }
-@media (max-width: 500px) {
+ 
+
+@media(max-width: 768px){
+.mlogo{
+   height :8rem;
+   width: 8rem;
+   margin-right: 350px;
+}
+}
+
+}
+@media (max-width: 540px) {
+  .mlogo {
+    height: 8rem;
+    width: 8rem;
+    margin-right: 200px;
+  }
+}
+@media (max-width: 440px) {
   .mlogo {
     height: 8rem;
     width: 8rem;
     margin-right: 100px;
   }
 }
-@media (max-width: 380px) {
-  .mlogo {
-    height: 8rem;
-    width: 8rem;
-    margin-right: 70px;
-  }
-}
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   .mlogo {
     height: 6rem;
     width: 6rem;
-    margin-right: 30px;
+    margin-right: 50px;
   }
 }
 
@@ -1213,6 +1239,23 @@ p {
   background: #3291e6;
   color: #fff;
 }
+@media(max-width: 1280px){
+  .appointment-btn {
+    margin-bottom: -20px;
+    font-weight: 700;
+    margin-left: 5px;
+    background: #1977cc;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 10px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+  }
+}
+
+}
 @media (max-width: 768px) {
   .appointment-btn {
     
@@ -1325,6 +1368,37 @@ p {
   left: 100%;
   visibility: visible;
 }
+@media(max-width: 1280px){
+
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #2c4964;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: 0.3s;
+  border-bottom: 2px solid #fff;
+  padding: 5px 2px;
+}
+}
+@media(max-width: 1200px){
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #2c4964;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: 0.3s;
+    border-bottom: 2px solid #fff;
+    padding: 2px 2px;
+  }
+}
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -1350,7 +1424,7 @@ p {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -1500,7 +1574,7 @@ p {
     margin-bottom: 30px;
   }
 }
-@media (max-height: 600px) {
+@media (max-height: 800px) {
   #hero {
     height: 110vh;
   }
