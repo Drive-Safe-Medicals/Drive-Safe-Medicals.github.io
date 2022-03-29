@@ -70,6 +70,12 @@ p {
   font-family: 'Raleway', sans-serif;
   
 }
+ul {
+  font-family: 'Raleway', sans-serif;
+}
+ol{
+  font-family: 'Raleway', sans-serif;
+}
 
 /* inner page section */
 #main {
@@ -121,8 +127,8 @@ p {
 #main p{
  color: #2c4964;
 }
-#main li{
-  c
+#main ul{
+  color: #2c4964;
 }
 
 /*--------------------------------------------------------------
