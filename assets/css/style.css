@@ -68,11 +68,13 @@ h6 {
 }
 p {
   font-family: 'Raleway', sans-serif;
+  
 }
 
 /* inner page section */
 #main {
   font-size: 16px;
+  
 }
 #main h1 {
   margin: 0;
@@ -114,6 +116,13 @@ p {
 }
 #main .btn-get-started:hover {
   background: #3291e6;
+}
+ 
+#main p{
+ color: #2c4964;
+}
+#main li{
+  c
 }
 
 /*--------------------------------------------------------------
@@ -190,6 +199,8 @@ p {
     height: 110vh;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Hero Section taxi
