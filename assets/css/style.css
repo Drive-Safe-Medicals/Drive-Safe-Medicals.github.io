@@ -71,9 +71,11 @@ p {
   
 }
 ul {
+ 
   font-family: 'Raleway', sans-serif;
 }
 ol{
+  
   font-family: 'Raleway', sans-serif;
 }
 
@@ -127,9 +129,10 @@ ol{
 #main p{
  color: #2c4964;
 }
-.list{
-  color: #2c4964;
+#main li{
+  color:#2c4964;
 }
+
 
 /*--------------------------------------------------------------
 # Hero Section hgv
