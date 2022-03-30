@@ -20,10 +20,8 @@ body {
 
 .customTextBG > span {
   background-color: #3498db;
-  color: #FFF;
-  box-shadow: -01px 0px 0 1px #3498db,
-    11px 0px 0 1px #3498db,
-    0 0 0 1px #3498db;
+  color: #fff;
+  box-shadow: -01px 0px 0 1px #3498db, 11px 0px 0 1px #3498db, 0 0 0 1px #3498db;
   box-decoration-break: clone;
   font-size: 0.75em;
 }
@@ -68,21 +66,17 @@ h6 {
 }
 p {
   font-family: 'Raleway', sans-serif;
-  
 }
 ul {
- 
   font-family: 'Raleway', sans-serif;
 }
-ol{
-  
+ol {
   font-family: 'Raleway', sans-serif;
 }
 
 /* inner page section */
 #main {
   font-size: 16px;
-  
 }
 #main h1 {
   margin: 0;
@@ -125,14 +119,13 @@ ol{
 #main .btn-get-started:hover {
   background: #3291e6;
 }
- 
-#main p{
- color: #2c4964;
-}
-#main li{
-  color:#2c4964;
-}
 
+#main p {
+  color: #2c4964;
+}
+#main li {
+  color: #2c4964;
+}
 
 /*--------------------------------------------------------------
 # Hero Section hgv
@@ -143,12 +136,9 @@ ol{
   background: url('../img/HGV_LGV.jpg') top center;
   background-size: cover;
   margin-bottom: 5px;
- 
-  
 }
 #herohgv .container {
   position: relative;
-  
 }
 #herohgv h1 {
   margin: 0;
@@ -208,8 +198,6 @@ ol{
     height: 110vh;
   }
 }
-
-
 
 /*--------------------------------------------------------------
 # Hero Section taxi
@@ -366,7 +354,6 @@ ol{
 }
 #heroms .container {
   position: relative;
-  
 }
 #heroms h1 {
   margin: 0;
@@ -439,7 +426,6 @@ ol{
 }
 #heroamb .container {
   position: relative;
-  
 }
 #heroamb h1 {
   margin: 0;
@@ -504,7 +490,6 @@ ol{
 # Hero Section Crane
 --------------------------------------------------------------*/
 #herocrane {
-  
   width: 100%;
   height: 78vh;
   background: url('../img/crane-operator.jpg') top center;
@@ -585,7 +570,6 @@ ol{
 }
 #herofork .container {
   position: relative;
-
 }
 #herofork h1 {
   margin: 0;
@@ -658,7 +642,6 @@ ol{
 }
 #heropsv .container {
   position: relative;
-
 }
 #heropsv h1 {
   margin: 0;
@@ -731,7 +714,6 @@ ol{
 }
 #heroemp .container {
   position: relative;
-  
 }
 #heroemp h1 {
   margin: 0;
@@ -801,12 +783,9 @@ ol{
   background: url('../img/2.jpeg') top center;
   background-size: cover;
   margin-bottom: 5px;
- 
- 
 }
 #heroohm .container {
   position: relative;
-  
 }
 #heroohm h1 {
   margin: 0;
@@ -943,7 +922,6 @@ ol{
 --------------------------------------------------------------*/
 #appointmentpage {
   margin-top: 180px;
- 
 }
 .appointmentpage .php-email-form {
   width: 100%;
@@ -1046,38 +1024,36 @@ ol{
   margin-right: 30px;
 }
 
-@media (max-width: 1280px){
-  .mlogo{
-    height:8rem;
-    width:8rem;
+@media (max-width: 1280px) {
+  .mlogo {
+    height: 8rem;
+    width: 8rem;
     margin-right: 10px;
   }
 }
 
-@media(max-width: 1024px){
- .mlogo{
-  height: 8rem;
-  width: 8rem;
-  margin-right: 500px;
- }
+@media (max-width: 1024px) {
+  .mlogo {
+    height: 8rem;
+    width: 8rem;
+    margin-right: 500px;
+  }
 }
-@media (max-width: 920px){
-  .mlogo{
+@media (max-width: 920px) {
+  .mlogo {
     height: 8rem;
     width: 8rem;
     margin-right: 350px;
   }
 }
- 
 
-@media(max-width: 768px){
-.mlogo{
-   height :8rem;
-   width: 8rem;
-   margin-right: 350px;
+@media (max-width: 768px) {
+  .mlogo {
+    height: 8rem;
+    width: 8rem;
+    margin-right: 350px;
+  }
 }
-}
-
 
 @media (max-width: 540px) {
   .mlogo {
@@ -1260,7 +1236,7 @@ ol{
   background: #3291e6;
   color: #fff;
 }
-@media(max-width: 1280px){
+@media (max-width: 1280px) {
   .appointment-btn {
     margin-bottom: -20px;
     font-weight: 700;
@@ -1276,10 +1252,8 @@ ol{
   }
 }
 
-
 @media (max-width: 768px) {
   .appointment-btn {
-    
     margin: 0 15px -25px -10px;
     padding: 8px 10px;
   }
@@ -1296,7 +1270,6 @@ ol{
   margin-bottom: -25px;
 }
 .navbar ul {
- 
   margin: 0;
   padding: 0;
   display: flex;
@@ -1389,30 +1362,28 @@ ol{
   left: 100%;
   visibility: visible;
 }
-@media(max-width: 1280px){
-.navbar a,
-.navbar a:focus {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 16px;
-  color: #2c4964;
-  font-weight: 700;
-  white-space: nowrap;
-  transition: 0.3s;
-  border-bottom: 2px solid #fff;
-  padding: 5px 2px;
+@media (max-width: 1280px) {
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #2c4964;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: 0.3s;
+    border-bottom: 2px solid #fff;
+    padding: 5px 2px;
+  }
 }
-}
 
-
-
-@media(max-width: 1200px){
+@media (max-width: 1200px) {
   .navbar li {
     position: relative;
     margin-right: 1px;
   }
-  }
+}
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -1590,6 +1561,78 @@ ol{
 }
 @media (max-height: 800px) {
   #hero {
+    height: 110vh;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero Section About Us
+--------------------------------------------------------------*/
+#heroAboutUs {
+  width: 100%;
+  height: 75vh;
+  background: url('../img/about-us.jpg') top center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+#heroAboutUs .container {
+  position: relative;
+}
+#heroAboutUs h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#heroAboutUs h2 {
+  color: #2c4964;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#heroAboutUs .btn-get-started {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+#heroAboutUs .btn-get-started:hover {
+  background: #3291e6;
+}
+@media (min-width: 1024px) {
+  #heroAboutUs {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #heroAboutUs {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+  #heroAboutUs .container {
+    padding-bottom: 63px;
+  }
+  #heroAboutUs h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heroAboutUs h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-height: 600px) {
+  #heroAboutUs {
     height: 110vh;
   }
 }
@@ -2312,13 +2355,14 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials{
+.testimonials {
   background-color: #f1f7fd;
 }
 .testimonials .testimonial-wrap {
   padding-left: 50px;
 }
-.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
   overflow: hidden;
 }
 .testimonials .testimonial-item {
@@ -2348,7 +2392,8 @@ section {
   color: #999;
   margin: 0;
 }
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: #badaf7;
   font-size: 26px;
 }
@@ -2376,7 +2421,6 @@ section {
   height: 7px;
   background-color: gainsboro;
   opacity: 1;
- 
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #1977cc;
@@ -2385,7 +2429,8 @@ section {
   .testimonials .testimonial-wrap {
     padding-left: 0;
   }
-  .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+  .testimonials .testimonials-carousel,
+  .testimonials .testimonials-slider {
     overflow: hidden;
   }
   .testimonials .testimonial-item {
@@ -2861,8 +2906,7 @@ h2 {
 .owl-2-style .owl-dots .owl-dot:focus {
   outline: none;
 }
-.findmore-btn{
-  
+.findmore-btn {
   font-weight: 700;
   margin-left: 10px;
   background: #1977cc;
@@ -2883,7 +2927,6 @@ h2 {
     margin: 0 15px 0 -10px;
     padding: 8px 10px;
   }
-
 }
 
 .carousel-btn {
@@ -2891,7 +2934,7 @@ h2 {
 }
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);
 .testimonial3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #8d97ad;
   font-weight: 300;
 }
@@ -2937,20 +2980,20 @@ h2 {
 }
 
 .testimonial3 .card.card-shadow {
-    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
 }
 
 .testimonial3 .font-10 {
-	font-size: 10px;
+  font-size: 10px;
 }
 
 .testimonial3 .text-success {
-    color: #2cdd9b !important;
+  color: #2cdd9b !important;
 }
 
 .testimonial3 .text-muted {
-    color: #8d97ad !important;
+  color: #8d97ad !important;
 }
 
 .testimonial3 .owl-theme .owl-dots .owl-dot.active span,
