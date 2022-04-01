@@ -347,8 +347,8 @@ ol {
 --------------------------------------------------------------*/
 #heroms {
   width: 100%;
-  height: 100vh;
-  background: url('../img/motorsports.jpg') top center;
+  height: 75vh;
+  background: url('../img/motorsportbg.jpg') top center;
   background-size: cover;
   margin-bottom: 5px;
 }
