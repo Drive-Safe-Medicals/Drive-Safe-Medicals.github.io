@@ -1043,37 +1043,38 @@ ol {
   .mlogo {
     height: 8rem;
     width: 8rem;
-    margin-right: 350px;
+    margin-right: 400px;
   }
 }
 
-@media (max-width: 768px) {
-  .mlogo {
-    height: 8rem;
-    width: 8rem;
-    margin-right: 350px;
-  }
-}
+
 
 @media (max-width: 540px) {
   .mlogo {
     height: 8rem;
     width: 8rem;
-    margin-right: 200px;
+    margin-right: 250px;
   }
 }
 @media (max-width: 440px) {
   .mlogo {
     height: 8rem;
     width: 8rem;
-    margin-right: 100px;
+    margin-right: 120px;
+  }
+}
+@media (max-width: 380px) {
+  .mlogo {
+    height: 6rem;
+    width: 6rem;
+    margin-right: 120px;
   }
 }
 @media (max-width: 320px) {
   .mlogo {
     height: 6rem;
     width: 6rem;
-    margin-right: 50px;
+    margin-right: 40px;
   }
 }
 
