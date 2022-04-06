@@ -135,7 +135,7 @@ ol {
   height: 75vh;
   background: url('../img/HGV_LGV.jpg') top center;
   background-size: cover;
-  margin-bottom: 5px;
+  margin-bottom: -20px;
 }
 #herohgv .container {
   position: relative;
@@ -146,7 +146,7 @@ ol {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #2c4964;
 }
 #herohgv h2 {
   color: #2c4964;
