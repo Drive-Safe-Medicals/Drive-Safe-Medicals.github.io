@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #444444;
 }
 
@@ -1758,6 +1758,9 @@ section {
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 30px;
+}
+.why-us .content .li{
+  font-size: 5px;
 }
 .why-us .content p {
   margin-bottom: 30px;
