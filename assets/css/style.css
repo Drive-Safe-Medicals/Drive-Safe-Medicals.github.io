@@ -2644,7 +2644,7 @@ section {
   color: #444444;
   position: relative;
   padding-bottom: 12px;
-  margin-left: 50px;
+  
 }
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
@@ -2698,11 +2698,13 @@ section {
   height: 36px;
   transition: 0.3s;
 }
+
 #footer .social-links a:hover {
   background: #1c84e3;
   color: #fff;
   text-decoration: none;
 }
+
 .flogo {
   margin-top: -40px;
   margin-bottom: 10px;
