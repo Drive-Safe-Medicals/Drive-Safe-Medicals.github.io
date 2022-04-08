@@ -2709,6 +2709,67 @@ section {
   width: 10rem;
   height: 8rem;
 }
+.flogo {
+  height: 8rem;
+  width: 12rem;
+  margin-right: 30px;
+}
+
+@media (max-width: 1280px) {
+  .flogo {
+    height: 8rem;
+    width: 8rem;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .flogo {
+    height: 8rem;
+    width: 8rem;
+    margin-right: 500px;
+  }
+}
+@media (max-width: 920px) {
+  .flogo {
+    height: 8rem;
+    width: 8rem;
+    margin-right: 400px;
+  }
+}
+
+
+
+@media (max-width: 540px) {
+  .flogo {
+    height: 8rem;
+    width: 8rem;
+    margin-right: 250px;
+  }
+}
+@media (max-width: 440px) {
+  .flogo {
+    height: 8rem;
+    width: 8rem;
+    margin-right: 120px;
+  }
+}
+@media (max-width: 380px) {
+  .flogo {
+    height: 6rem;
+    width: 6rem;
+    margin-right: 120px;
+  }
+}
+@media (max-width: 320px) {
+  .flogo {
+    height: 6rem;
+    width: 6rem;
+    margin-right: 40px;
+  }
+}
+
+
 *--------------------------------------------------------------
   #SERVICES
   --------------------------------------------------------------*/
@@ -3238,7 +3299,7 @@ section {
 }
 
 .testimonial-three .testimonial-three-col:hover {
-   background-color:#f7f7f7;
+   background-color:#96c9f5;
 }
 
 .alternate-color .testimonial-three .testimonial-three-col:hover {
