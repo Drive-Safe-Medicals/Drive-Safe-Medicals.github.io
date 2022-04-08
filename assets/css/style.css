@@ -3018,12 +3018,7 @@ body{margin-top:20px;}
     padding: 55px 0px;
 }
 
-.section-medium1 {
-  padding: 0px 0px;
-  margin-bottom: 100px;
-  margin-top: 50px;
-  text-align: center;
-}
+
 .testimonial-four blockquote:hover::after, .section-arrow-primary-color.section-arrow--bottom-center:after {
     border-right-color: #3291e6;
 }
@@ -3078,9 +3073,7 @@ body{margin-top:20px;}
 .special-heading.line span:before, .special-heading.line span:after, .footer.footer-minimal, .t-bordered {
     border-top-color: #eaeaea;
 }
-.t-bordered {
-    border-top: 1px solid #eaeaea;
-}
+
 .section-primary {
     padding: 75px 0px;
 }
@@ -3457,4 +3450,7 @@ img {
     height: auto;
 }
 
-
+.list1{
+  text-align: left;
+  font-size: 15px;
+}
