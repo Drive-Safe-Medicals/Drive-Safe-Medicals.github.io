@@ -3070,10 +3070,10 @@ body{margin-top:20px;}
     font-family: Poppins;
 }
 .section-arrow-primary-color.section-arrow--bottom-center:after {
-    border-bottom-color: #0cb4ce;
+    border-bottom-color: white;
 }
 .section-arrow-primary-color.section-arrow--bottom-center:after{
-    background-color: #0cb4ce;
+    background-color: white;
 }
 .special-heading.line span:before, .special-heading.line span:after, .footer.footer-minimal, .t-bordered {
     border-top-color: #eaeaea;
