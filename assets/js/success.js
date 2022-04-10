@@ -19,7 +19,8 @@ const { userId } = params;
     .then(response => response.json())
     .then(data => {
       document.getElementById('loader').style.display = 'none';
-      if (data === 'success') {
+      const s = 'string';
+      if (data.toLowerCase().startsWith('success')) {
         // window.location.href = window.location.origin;
 
         document
