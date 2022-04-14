@@ -5,7 +5,9 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #444444;
 }
-
+.why-us-p{
+  color: white;
+}
 .loader {
   border: 16px solid #f3f3f3;
   border-radius: 50%;
@@ -21,7 +23,7 @@ body {
  .customTextBG > span {
   background-color: #3498db;
   color: #fff;
-  box-shadow: -01px 0px 0 1px #3498db, 11px 0px 0 1px #3498db, 0 0 0 1px #3498db;
+  box-shadow: -01px 0px 0 1px #3498db, 11px 0px 0 1px #3498db, ;
   box-decoration-break: clone;
   font-size: 0.85em;
 }
@@ -1878,7 +1880,6 @@ section {
   font-size: 15px;
   color: #848484;
 }
-
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
