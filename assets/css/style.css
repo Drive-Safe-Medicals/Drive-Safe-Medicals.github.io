@@ -5,7 +5,9 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #444444;
 }
-
+.why-us-p{
+  color: white;
+}
 .loader {
   border: 16px solid #f3f3f3;
   border-radius: 50%;
@@ -18,12 +20,36 @@ body {
   display: none;
 }
 
-/* .customTextBG > span {
-  background-color: #3498db;
+ .customTextBG > span {
+  background-color: #3291e6;
   color: #fff;
-  box-shadow: -01px 0px 0 1px #3498db, 11px 0px 0 1px #3498db, 0 0 0 1px #3498db;
+  box-shadow: -01px 0px 0 1px #3291e6, 11px 0px 0 1px #3291e6, ;
   box-decoration-break: clone;
-  font-size: 0.75em;
+  font-size: 0.85em;
+  
+}
+.customTextBGfork > span{
+  background: linear-gradient(
+  to right,
+  hsl(0, 0%, 0%) 0%,
+  hsla(0, 0%, 0%, 0.964) 7.4%,
+  hsla(0, 0%, 0%, 0.918) 15.3%,
+  hsla(0, 0%, 0%, 0.862) 23.4%,
+  hsla(0, 0%, 0%, 0.799) 31.6%,
+  hsla(0, 0%, 0%, 0.73) 39.9%,
+  hsla(0, 0%, 0%, 0.655) 48.2%,
+  hsla(0, 0%, 0%, 0.577) 56.2%,
+  hsla(0, 0%, 0%, 0.497) 64%,
+  hsla(0, 0%, 0%, 0.417) 71.3%,
+  hsla(0, 0%, 0%, 0.337) 78.1%,
+  hsla(0, 0%, 0%, 0.259) 84.2%,
+  hsla(0, 0%, 0%, 0.186) 89.6%,
+  hsla(0, 0%, 0%, 0.117) 94.1%,
+  hsla(0, 0%, 0%, 0.054) 97.6%,
+  hsla(0, 0%, 0%, 0) 100%
+  
+);
+font-size: 0.85em;
 }
 
 /* Safari */
@@ -137,6 +163,7 @@ ol {
   background-size: cover;
   margin-bottom: -20px;
 }
+
 #herohgv .container {
   position: relative;
 }
@@ -1878,7 +1905,6 @@ section {
   font-size: 15px;
   color: #848484;
 }
-
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -2284,43 +2310,43 @@ section {
 /*--------------------------------------------------------------
 # Doctors
 --------------------------------------------------------------*/
-.doctors {
+.Doctors {
   background: #fff;
 }
-.doctors .member {
+.Doctors .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
   padding: 30px;
   border-radius: 10px;
 }
-.doctors .member .pic {
+.Doctors .member .pic {
   overflow: hidden;
   width: 180px;
   border-radius: 50%;
 }
-.doctors .member .pic img {
+.Doctors .member .pic img {
   transition: ease-in-out 0.3s;
 }
-.doctors .member:hover img {
+.Doctors .member:hover img {
   transform: scale(1.1);
 }
-.doctors .member .member-info {
+.Doctors .member .member-info {
   padding-left: 30px;
 }
-.doctors .member h4 {
+.Doctors .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: #2c4964;
 }
-.doctors .member span {
+.Doctors .member span {
   display: block;
   font-size: 15px;
   padding-bottom: 10px;
   position: relative;
   font-weight: 500;
 }
-.doctors .member span::after {
+.Doctors .member span::after {
   content: '';
   position: absolute;
   display: block;
@@ -2330,18 +2356,18 @@ section {
   bottom: 0;
   left: 0;
 }
-.doctors .member p {
+.Doctors .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
 
-.doctors .member .social {
+.Doctors .member .social {
   margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.doctors .member .social a {
+.Doctors .member .social a {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
@@ -2351,15 +2377,15 @@ section {
   height: 32px;
   background: #a0bcd5;
 }
-.doctors .member .social a i {
+.Doctors .member .social a i {
   color: #fff;
   font-size: 16px;
   margin: 0 2px;
 }
-.doctors .member .social a:hover {
+.Doctors .member .social a:hover {
   background: #3291e6;
 }
-.doctors .member .social a + a {
+.Doctors .member .social a + a {
   margin-left: 8px;
 }
 
