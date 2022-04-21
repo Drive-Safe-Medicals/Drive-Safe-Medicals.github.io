@@ -21,11 +21,35 @@ body {
 }
 
  .customTextBG > span {
-  background-color: #3498db;
+  background-color: #3291e6;
   color: #fff;
-  box-shadow: -01px 0px 0 1px #3498db, 11px 0px 0 1px #3498db, ;
+  box-shadow: -01px 0px 0 1px #3291e6, 11px 0px 0 1px #3291e6, ;
   box-decoration-break: clone;
   font-size: 0.85em;
+  
+}
+.customTextBGfork > span{
+  background: linear-gradient(
+  to right,
+  hsl(0, 0%, 0%) 0%,
+  hsla(0, 0%, 0%, 0.964) 7.4%,
+  hsla(0, 0%, 0%, 0.918) 15.3%,
+  hsla(0, 0%, 0%, 0.862) 23.4%,
+  hsla(0, 0%, 0%, 0.799) 31.6%,
+  hsla(0, 0%, 0%, 0.73) 39.9%,
+  hsla(0, 0%, 0%, 0.655) 48.2%,
+  hsla(0, 0%, 0%, 0.577) 56.2%,
+  hsla(0, 0%, 0%, 0.497) 64%,
+  hsla(0, 0%, 0%, 0.417) 71.3%,
+  hsla(0, 0%, 0%, 0.337) 78.1%,
+  hsla(0, 0%, 0%, 0.259) 84.2%,
+  hsla(0, 0%, 0%, 0.186) 89.6%,
+  hsla(0, 0%, 0%, 0.117) 94.1%,
+  hsla(0, 0%, 0%, 0.054) 97.6%,
+  hsla(0, 0%, 0%, 0) 100%
+  
+);
+font-size: 0.85em;
 }
 
 /* Safari */
@@ -139,6 +163,7 @@ ol {
   background-size: cover;
   margin-bottom: -20px;
 }
+
 #herohgv .container {
   position: relative;
 }
