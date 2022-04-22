@@ -25,7 +25,7 @@ body {
   color: #fff;
   box-shadow: -01px 0px 0 1px #3291e6, 11px 0px 0 1px #3291e6, ;
   box-decoration-break: clone;
-  font-size: 0.85em;
+  
   
 }
 .customTextBGfork > span{
@@ -49,7 +49,7 @@ body {
   hsla(0, 0%, 0%, 0) 100%
   
 );
-font-size: 0.85em;
+
 }
 
 /* Safari */
@@ -112,6 +112,13 @@ ol {
   text-transform: uppercase;
   color: #2c4964;
 }
+
+@media (max-width: 1280px) {
+  #main h1 {
+   font-size: 24px;
+  }
+}
+
 #main h2 {
   margin: 0;
   font-size: 18px;
@@ -169,7 +176,7 @@ ol {
 }
 #herohgv h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -241,7 +248,7 @@ ol {
 }
 #herotaxi h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -313,7 +320,7 @@ ol {
 }
 #heromh h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -384,7 +391,7 @@ ol {
 }
 #heroms h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -456,7 +463,7 @@ ol {
 }
 #heroamb h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -528,7 +535,7 @@ ol {
 }
 #herocrane h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -600,7 +607,7 @@ ol {
 }
 #herofork h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -672,7 +679,7 @@ ol {
 }
 #heropsv h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -744,7 +751,7 @@ ol {
 }
 #heroemp h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -816,7 +823,7 @@ ol {
 }
 #heroohm h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -888,7 +895,7 @@ ol {
 }
 #herods h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -1536,7 +1543,7 @@ ol {
   position: relative;
 }
 #hero h1 {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -1608,7 +1615,7 @@ ol {
 }
 #heroAboutUs h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 100px;
   text-transform: uppercase;
@@ -1681,7 +1688,7 @@ ol {
 }
 #herofaq h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 100px;
   text-transform: uppercase;
@@ -2710,7 +2717,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #444444;
+
   font-size: 14px;
   background: #f1f7fd;
 }
@@ -2736,12 +2743,12 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: 'Raleway', sans-serif;
-  color: #777777;
+  
 }
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+
   position: relative;
   padding-bottom: 12px;
   
@@ -2770,7 +2777,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: rgb(44 73 100);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -2878,10 +2885,7 @@ section {
   line-height: 1.7;
 }
 
-p {
-  color: #999999;
-  
-}
+
 
 h1,
 h2,
@@ -2974,16 +2978,11 @@ h2 {
 }
 
 body {
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+ 
   line-height: 1.7;
 }
 
-p {
-  color: #999999;
- 
-}
+
 
 h1,
 h2,
@@ -3093,11 +3092,12 @@ h2 {
 .carousel-btn {
   margin: 10px;
 }
-@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);
+
 .testimonial3 {
   font-family: 'Raleway', sans-serif;
   color: #8d97ad;
-  font-weight: 300;
+  font-weight: 500;
+  text-size-adjust: 100%;
 }
 
 .testimonial3 h1,
@@ -3176,8 +3176,20 @@ body{margin-top:20px;}
     background-color: #3291e6 !important;
 }
 .section-medium {
-    padding: 55px 0px;
+    padding: 30px 0px;
 }
+
+@media (max-width: 1280px) {
+  .section-medium {
+  padding:10px 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .mlogo {
+    padding:10px 0px;
+  }
+  }
 
 
 .testimonial-four blockquote:hover::after, .section-arrow-primary-color.section-arrow--bottom-center:after {
@@ -3219,6 +3231,8 @@ body{margin-top:20px;}
     font-family: 'Raleway', sans-serif;
     letter-spacing: -0.02em;
 }
+
+
 .section-sub-title {
     font-size: 18px;
     margin-bottom: 20px;
