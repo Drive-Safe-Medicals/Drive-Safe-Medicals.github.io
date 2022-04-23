@@ -6,7 +6,7 @@ const { userId } = params;
 (async function () {
   document.getElementById('loader').style.display = 'block';
   await fetch(
-    'https://us-central1-drive-safe-medicals-26e5f.cloudfunctions.net/paymentSessionComplete',
+    ' https://europe-west2-drivesafemedicals.cloudfunctions.net/paymentSessionComplete',
     {
       headers: {
         Accept: 'application/json',
