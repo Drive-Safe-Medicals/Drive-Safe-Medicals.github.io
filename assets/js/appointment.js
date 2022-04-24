@@ -30,7 +30,7 @@
   document.getElementById('date').min = min;
 
   await fetch(
-    `https://us-central1-drive-safe-medicals-26e5f.cloudfunctions.net/getLocations`
+    ` https://europe-west2-drivesafemedicals.cloudfunctions.net/getLocations`
   )
     .then(response => response.json())
     .then(data => {
@@ -100,7 +100,7 @@ const fetchTimes = async () => {
     '/' +
     parseInt(dateA[2], 10);
   await fetch(
-    `https://us-central1-drive-safe-medicals-26e5f.cloudfunctions.net/getFreeTimes?date=${date}&location=${timeFetcher.location}`
+    ` https://europe-west2-drivesafemedicals.cloudfunctions.net/getFreeTimes?date=${date}&location=${timeFetcher.location}`
   )
     .then(response => response.json())
     .then(data => {
@@ -156,7 +156,7 @@ const bookAppointment = async body => {
   document.getElementById('aptForm').style.display = 'none';
   document.getElementById('loader').style.display = 'block';
   await fetch(
-    'https://us-central1-drive-safe-medicals-26e5f.cloudfunctions.net/bookAppointment',
+    ' https://europe-west2-drivesafemedicals.cloudfunctions.net/bookAppointment',
     {
       headers: {
         Accept: 'application/json',
