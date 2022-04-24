@@ -3186,11 +3186,7 @@ body{margin-top:20px;}
   }
 }
 
-@media (max-width: 1024px) {
-  .mlogo {
-    padding:10px 0px;
-  }
-  }
+
 
 
 .testimonial-four blockquote:hover::after, .section-arrow-primary-color.section-arrow--bottom-center:after {
@@ -3410,7 +3406,7 @@ section {
     border-bottom-width: 1px;
     border-right-color: #ddd;
     border-bottom-color: #ddd;
-    padding: 25px;
+    padding: 18px;
 }
 
 .testimonial-three .testimonial-three-col:hover {
@@ -3597,7 +3593,7 @@ section {
    float: right;
    text-align: right;
    right: 3px;
-   bottom: 40px;
+   bottom: 20px;
 }
 
 .testimonial-five .testimonial-author {
