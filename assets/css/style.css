@@ -19,7 +19,7 @@ body {
   margin: auto;
   display: none;
 }
-
+/*
  .customTextBG > span {
   background-color: #3291e6;
   color: #fff;
@@ -28,7 +28,8 @@ body {
   
   
 }
-.customTextBGfork > span{
+*/
+.customTextBG > span{
   background: linear-gradient(
   to right,
   hsl(0, 0%, 0%) 0%,
@@ -252,7 +253,7 @@ ol {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #2c4964;
+  color: white;
 }
 #herotaxi h2 {
   color: #2c4964;
@@ -1547,7 +1548,7 @@ ol {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #2c4964;
+  color: #ffffff;
 }
 #hero h2 {
   color: #2c4964;
@@ -1619,7 +1620,7 @@ ol {
   font-weight: 700;
   line-height: 100px;
   text-transform: uppercase;
-  color: #2c4964;
+  color: white;
 }
 #heroAboutUs h2 {
   color:#2c4964;
