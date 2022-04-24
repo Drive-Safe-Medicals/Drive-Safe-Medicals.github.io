@@ -135,6 +135,7 @@ ol {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 30px;
+  width: 80%;
 }
 #main .btn-get-started {
   position: flex;
@@ -2726,7 +2727,7 @@ section {
   padding: 60px 0 30px 0;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
-  margin-top: 0;
+  margin-top: -20px;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
