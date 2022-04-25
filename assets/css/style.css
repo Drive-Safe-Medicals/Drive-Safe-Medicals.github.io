@@ -789,7 +789,7 @@ ol {
 @media (max-width: 992px) {
   #heroemp {
     margin-bottom: 0;
-    height: 100vh;
+    height: 90vh;
   }
   #heroemp .container {
     padding-bottom: 63px;
